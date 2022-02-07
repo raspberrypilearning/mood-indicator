@@ -7,10 +7,11 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: Step title
+  - title: Design your mood check-in
+  - title: Code your mood lights
     completion: engaged
-  - title: Step title
+  - title: Change your mood
+  - title: Craft your device
     completion: internal
   - title: Reflection
     knowledge_quiz:

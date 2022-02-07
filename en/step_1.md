@@ -1,76 +1,62 @@
 ## Introduction
 
-In this project, <mark> short project description </mark>
-
-<mark>Boxout (wherever wanted/needed) </mark>
+Create a mood check-in device with coloured lights to emote your current mood. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
+Paying attention to your present mood is one way to support your wellbeing. Its okay to feel angry or sad, just as it is okay to feel happy or excited. A <span style="color: #0faeb0">mood check-in</span> is a time for you to notice how you are feeling and record it or let others know about it. 
 </p>
 
-<mark>Objectives in language that learners will understand</mark>
-
 You will:
-+ 
-+ 
-+
++ Represent moods or emotions using colour and light patterns
++ Develop input controls for your device to allow the user to change their mood
++ Code LED(s) to create light patterns based on different moods
 
-<mark>Image of many different examples in a strip</mark>
+To complete this project you will need:
+
++ A Raspberry Pi Pico with pin headers soldered on
++ A data USB A to micro USB cable
++ RGB LED(s) or single colour LED(s)
++ A potentiometer or buttons (bought or crafted)
++ Jumper wires
++ Resistors
++ Craft materials including card, sticky tape and kitchen foil
+
+--- task ---
+
+**Look:** Take a look at this mood check-in device. How does it use colour to communicate a mood? How do you change the colour displayed? 
+
+Drop switch
+![desc](images/drop-switch.gif)
+
+--- /task ---
+
+## Get inspiration
+
+Explore these examples to get more ideas.
+
+Mood lamp
+![desc](images/mood-lamp.gif)
+Mood dial
+![desc](images/mood-dial.gif)
+One more to be decided (use single colour LEDs)
+![desc](images/single-leds.gif)
 
 --- no-print ---
-
---- task ---
-
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-
-### Try it 
-
-Description of what to do or think about when looking at the example.
-
-</div>
-<div>
-**Gobo watching**: [See inside](https://scratch.mit.edu/projects/495141114/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495141114/?autostart=false" frameborder="0"></iframe>
-</div>
-
-</div>
-
---- /task ---
-
-### Get inspiration 
-
-You are going to make some design decisions to ...
-
---- task ---
-
-Explore these example projects to get more ideas:
-
-**Don't eat donut**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865093/?autostart=false" frameborder="0"></iframe>
-</div>
-
-**Under the sea**: [See inside](https://scratch.mit.edu/projects/495866460/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495866460/?autostart=false" frameborder="0"></iframe>
-</div>
-
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
-</div>
---- /task ---
 --- /no-print ---
+
 
 --- print-only ---
 
-### Get inspiration 
+## Get inspiration
 
-You are going to make some design decisions to create your character. See inside example projects in [Scratch 1: Googly eye character - Examples](https://scratch.mit.edu/studios/29029028/){:target="_blank"} Scratch studio.
+Explore these examples to get more ideas.
 
-<mark>one image file per example</mark>
+Mood lamp
+![desc](images/mood-lamp.png)
+Mood dial
+![desc](images/mood-dial.png)
+One more to be decided (use single colour LEDs)
+![desc](images/single-leds.png)
 
 --- /print-only ---
 
