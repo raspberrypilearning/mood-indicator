@@ -38,8 +38,8 @@ Mood lamp
 ![desc](images/mood-lamp.gif)
 Mood dial
 ![desc](images/mood-dial.gif)
-One more to be decided (use single colour LEDs)
-![desc](images/single-leds.gif)
+Focus indicator
+![A box with three emojis on the front. One is a stop sign, one is a hands up and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
 
 --- no-print ---
 --- /no-print ---
