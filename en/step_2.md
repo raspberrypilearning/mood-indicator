@@ -5,7 +5,7 @@
 How will your mood check-in device show different moods? How will the user select their mood? 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/image.png){:width="300px"}
 </div>
 </div>
 
@@ -38,8 +38,7 @@ You could use:
 
 You could use: 
 + Different colours: will you use colours associated with the moods? Red for anger or love, blue for calm or sadness 
-+ Different blink speeds: a calm mood might have a slow blink but anxious might blink quickly 
-+ Pulsing or colour change effects: more complex moods might need patterns of colours of effects 
+
 
 You could make notes or draw a sketch of your plan. 
 
@@ -73,7 +72,7 @@ You could use:
 You could:
 + Take inspiration from the designs in the introduction
 + Embed your components into a soft toy
-+ 
++ Turn your components into a wearable
 
 **Tip:** You don't need to decide everything now. It's fine to iterate on your design as you start making. 
 
