@@ -26,6 +26,7 @@ To complete this project you will need:
 **Look:** Take a look at this mood check-in device. How does it use colour to communicate a mood? How do you change the colour displayed? 
 
 Drop switch
+
 ![desc](images/drop-switch.gif)
 
 --- /task ---
@@ -42,8 +43,10 @@ Focus indicator
 ![A box with three emojis on the front. One is a stop sign, one is a hands up and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
 
 --- no-print ---
---- /no-print ---
 
+![desc](images/path)
+
+--- /no-print ---
 
 --- print-only ---
 
@@ -52,6 +55,7 @@ Focus indicator
 Explore these examples to get more ideas.
 
 Mood lamp
+
 ![desc](images/mood-lamp.png)
 Mood dial
 ![desc](images/mood-dial.png)

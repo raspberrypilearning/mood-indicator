@@ -4,7 +4,6 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 </div>
 It's good practice to build your project up gradually. In this step, you will connect and code your LEDs to show different moods and test that this is working.
-
 <div>
 ![](images/image.png){:width="300px"}
 </div>
@@ -30,12 +29,12 @@ Connect your LED(s) to the Raspberry Pi Pico:
 
 --- task ---
 
-Import the Python library for the type of LED that you are using:
+Import the type of LED that you are using from the picozero library:
 
 --- collapse ---
 
 ---
-title: Import the single LED library
+title: Import the single LED 
 ---
 
 --- code ---
@@ -56,7 +55,7 @@ from picozero import LED
 --- collapse ---
 
 ---
-title: Import the RGB LED library
+title: Import the RGB LED
 ---
 
 --- code ---
@@ -162,8 +161,6 @@ def sad(): # Your second mood
 --- /code ---
 
 --- /collapse ---
-
-[[[]]]
 
 **Tip:** Add comments to your code next to the colour values so that you remember what colours you have created for each mood. 
 
