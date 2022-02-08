@@ -44,6 +44,14 @@ You could make notes or draw a sketch of your plan.
 
 --- /task ---
 
+The Raspberry Pi Pico has eight **GND** pins so when you are using jumper wires, you can only have eight components. There is only one **3V** pin so you can only use one potentiometer. There is also a limit to how much current the Raspberry Pi Pico can supply, we recommend a maximum of 2 RGB LEDs or 6 single-colour LEDs. 
+
+Suggested combinations of input and outputs are:
++ 3 buttons and 3 single-colour LEDs
++ 1 potentiometer and 1 RGB LED
++ 1 button and 1 RGB LED
++ 4 buttons and 1 RGB LED
+
 --- task ---
 
 **Choose:** What LEDs will you use with your device?

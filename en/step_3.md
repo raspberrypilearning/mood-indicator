@@ -162,6 +162,8 @@ def sad(): # Your second mood
 
 --- /collapse ---
 
+[[[generic-theory-simple-colours]]]
+
 **Tip:** Add comments to your code next to the colour values so that you remember what colours you have created for each mood. 
 
 --- /task ---
@@ -215,6 +217,16 @@ title: My LED doesn't light when I call my mood function
 ---
 
 Check that the pins in your code match the pins your LED is connected to.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: My RGB LED show the wrong colour
+---
+
+Check your code to make sure that your colour values are in the right order. Use the ['RGB Colour guide'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to check your code matches the colour you expect.
 
 --- /collapse ---
 

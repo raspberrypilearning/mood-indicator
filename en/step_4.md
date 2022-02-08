@@ -16,6 +16,7 @@ Now you need a way for the user to change moods using button or potentiometer in
 You could use:
 + One button for each mood
 + A single button to move to the next mood
++ Two socket to pin jumper wires that you can connect to a crafted button or switch
 + A potentiometer to select the mood depending on the dial position
 
 You will also need two socket-socket jumper wires for each button or three socket-to-socket wires for a potentiometer. 
@@ -24,11 +25,12 @@ You will also need two socket-socket jumper wires for each button or three socke
 
 --- task ---
 
-Connect your input components to the Raspberry Pi Pico
+Connect your input components to the Raspberry Pi Pico.
 
 single-button-wiring
 multiple-button-wiring
 potentiometer-wiring
+crafted-switch-button-wiring
 
 **Tip:** If you want to use components you have not used before, or need to wire some more, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide. 
 
@@ -43,7 +45,7 @@ Import the type of input component you are using from the picozero library:
 --- collapse ---
 
 ---
-title: Import the Button
+title: Import Button
 ---
 
 --- code ---
@@ -64,7 +66,28 @@ from picozero import Button
 --- collapse ---
 
 ---
-title: Import the Potentiometer
+title: Import Switch
+---
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 1
+---
+
+from picozero import Switch
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Import Potentiometer
 ---
 
 --- code ---
@@ -90,6 +113,8 @@ Create a variable for each input component using the pin that you have connected
 
 single button pins ingredient
 mulitple button LEDs pin ingredient
+single switch pins ingredient
+mulitple switches LEDs pin ingredient
 potentiometer pins ingredient
 
 --- /task ---
@@ -98,11 +123,16 @@ Now you need to add code to call your mood functions based on the input.
 
 --- task ---
 
+
 --- collapse ---
 
 ---
 title: Call a different function when each button is pressed
 ---
+
+You can have multiple buttons that each call a different function when they are pressed. 
+
+Make sure you use the function names from your project and just use the name of the function, do not call it by adding brackets.
 
 --- code ---
 ---
@@ -124,7 +154,7 @@ angry_button.when_pressed = angry
 --- collapse ---
 
 ---
-title: Switch to the next mood when a single button is pressed
+title: Change to the next mood when a single button is pressed
 ---
 
 Use an `option` variable to keep track of the current mood so that you can decide which function to call next. 
@@ -158,7 +188,7 @@ def choice(): # call the next function and update the option
     else:
         option = option + 1
     
-switch.when_closed = choice # Call the choice function when the button is pressed
+button.when_pressed = choice # Call the choice function when the button is pressed
 
 --- /code ---
 
@@ -169,6 +199,10 @@ switch.when_closed = choice # Call the choice function when the button is presse
 ---
 title: Call a function based on the value of the potentiometer
 ---
+
+If you are using a potentiometer to control outputs then you will need to divide up the dial into equal sections. 
+
+You can use `dial.percent` to get a value between 0 and 1 from the potentiometer. If you have 5 moods then you can check whether the value is less than 20, 40, 60, 80 or 100. If you have 3 moods then you can check whether the value is less that 33, 66 or 100. 
 
 --- code ---
 ---
@@ -182,17 +216,17 @@ line_highlights:
 while True:
     mood = dial.percent
     print(mood)
-    if mood < 15:
+    if mood < 20:
         happy()
-    elif mood < 35:
+    elif mood < 40:
         good()
-    elif mood < 55:
+    elif mood < 60:
         okay()
-    elif mood< 80:
-        hmm()
+    elif mood < 80:
+        unsure()
     else:
         unhappy()
-    sleep(0.1)
+    sleep(0.1) 
 
 --- /code ---
 
@@ -200,9 +234,23 @@ while True:
 
 --- /task ---
 
+
+--- task ---
+
+**Test:** Run your script and make sure that you can switch between moods. 
+
+--- /task ---
+
 --- task ---
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+
+[pico-common-code-errors]
+
+Code runs, but nothings happens:
++ Check that your inputs are connected correctly and that you used the correct pin in your code
++ Check the Thonny Shell for any messages about variables or functions not being defined, you might have forgotten to change the examples to match your code
++ Check your code carefully. You could add `print` statements to help you understand what is happening. 
 
 --- collapse ---
 
