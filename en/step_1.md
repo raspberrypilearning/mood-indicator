@@ -35,7 +35,7 @@ Drop switch
 Explore these examples to get more ideas.
 
 Mood lamp
-![desc](images/mood-lamp.gif)
+![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
 Mood dial
 ![desc](images/mood-dial.gif)
 Focus indicator

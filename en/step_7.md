@@ -1,27 +1,27 @@
-## Upgrade
+## Upgrade your project
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
-</div>
-<div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
-</div>
-</div>
+If you have time you can upgrade your project. 
 
 --- task ---
 
-Another step of tasks to complete.
+You can look inside each of the examples in the [Introduction](.) to see the how the code works and get more inspiration.
 
 --- /task ---
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+Here are some other ideas you could try:
++ Do some testing with your audience then improve usability
++ Add more moods, colours and lights
++ Continue to craft your device to improve the structure or design
++ Add sound to your device using a buzzer
+
+--- /task ---
+
+--- task ---
+
+Take a look at our 
+['Mood check-in device - Community'](https://wke.lt/w/s/kTSkEC){:target="_blank"} gallery to see projects created by our community members.
 
 --- /task ---
 
