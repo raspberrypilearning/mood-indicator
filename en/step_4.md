@@ -36,14 +36,14 @@ potentiometer-wiring
 
 --- task ---
 
-Import the Python library for the type of input component you are using:
+Import the type of input component you are using from the picozero library:
 
 **Tip:** You can combine multiple imports into one line, for example `from picozero import LED, Button`.
 
 --- collapse ---
 
 ---
-title: Import the library used by a button
+title: Import the Button
 ---
 
 --- code ---
@@ -64,7 +64,7 @@ from picozero import Button
 --- collapse ---
 
 ---
-title: Import the library used by a potentiometer
+title: Import the Potentiometer
 ---
 
 --- code ---
@@ -106,7 +106,7 @@ title: Call a different function when each button is pressed
 ---
 language: python
 filename: mood-check-in.py
-line_numbers: true
+line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
@@ -125,16 +125,72 @@ angry_button.when_pressed = angry
 title: Switch to the next mood when a single button is pressed
 ---
 
+Use an `option` variable to keep track of the current mood so that you can decide which function to call next. 
+
+Make sure the function names match the mood functions you defined in the previous step.
+
 --- code ---
 ---
 language: python
 filename: mood-check-in.py
-line_numbers: true
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+option = 0 # store the current option
+
+def choice(): # call the next function and update the option
+    global option
+    if option == 0:
+        energised() # your first mood
+    elif option == 1:
+        calm()      # your second mood
+    elif option == 2:
+        focused()   # your third mood
+    elif option == 3:    
+        rgb.off()
+    
+    # move to the next option
+    if option == 3:
+        option = 0
+    else:
+        option = option + 1
+    
+switch.when_closed = choice # Call the choice function when the button is pressed
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Call a function based on the value of the potentiometer
+---
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
 
-
+while True:
+    mood = dial.percent
+    print(mood)
+    if mood < 15:
+        happy()
+    elif mood < 35:
+        good()
+    elif mood < 55:
+        okay()
+    elif mood< 80:
+        hmm()
+    else:
+        unhappy()
+    sleep(0.1)
 
 --- /code ---
 
