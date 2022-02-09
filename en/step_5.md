@@ -43,7 +43,41 @@ You could use:
 
 --- task ---
 
-Depending on how your mood check-in is activated, you may want to create a different casing and interface for your users. 
+**Make** the casing and interface parts for your mood check-in.
+
+Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start!
+
+--- collapse ---
+---
+title: Using a craft or utility knife
+---
+
+Craft and utility knives are very useful when making models, but you must be very careful when using them, as they are extremely sharp and can easily cause an injury. If you are using a craft or utility knife, make sure you have a responsible adult with you, or ask them to do the cutting for you if you prefer. It's also a good idea to use a cutting mat to protect the surface you are working on. If you don't have a cutting mat, a kitchen chopping board is a great alternative.
+
+![A box cutting knife.](https://upload.wikimedia.org/wikipedia/commons/c/cf/Box-cutter.jpg)
+
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+**Embed** your mood check-in components into your casing and **attach** them to your interface.
+
+--- collapse ---
+---
+title: Joining together jumper wires
+---
+
+You might need extra-long wires to attach your LED to your Raspberry Pi pins. You can do this by 'daisy chaining' wires together. For instance, to make an extra-long socket-socket wire, you can attach an pin-socket wire to a socket-socket wire.
+
+![A pin-socket wire attached to a socket-socket wire.](images/daisy-chain.jpg)
+
+The problem with this method is that often the wires will become detached from each other. You can use a small piece of tape to secure the connection.
+
+![A pin-socket wire taped to a socket-socket wire.](images/tape-daisy-chain.jpg)
+
+--- /collapse ---
 
 --- /task ---
 
