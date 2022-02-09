@@ -21,7 +21,7 @@ Make the physical parts of your new mood check-in.
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-In <b>optics</b> (the study of light and seeing), a <b>diffuser</b> is any material that scatters light in some way. Some LED bulbs are quite directed in their light and so can't be seen very well from a distance, or can be painfully bright to look at from the wrong angle. Using a diffuser can help stop these things from happening and make your light shine in a much more pleasing way. You can make a very simple diffuser just by covering your LED with a thin piece of paper.
+In <span style="color: #0faeb0">optics</span> (the study of light and seeing), a <b>diffuser</b> is any material that scatters light in some way. Some LED bulbs are quite directed in their light and so can't be seen very well from a distance, or can be painfully bright to look at from the wrong angle. Using a diffuser can help stop these things from happening and make your light shine in a much more pleasing way. You can make a very simple diffuser just by covering your LED with a thin piece of paper.
 </p>
 
 --- task ---
