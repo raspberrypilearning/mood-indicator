@@ -29,8 +29,9 @@ Connect your input components to the Raspberry Pi Pico.
 
 single-button-wiring
 multiple-button-wiring
-potentiometer-wiring
-crafted-switch-button-wiring
+[[[potentiometer-wiring]]]
+[[[crafted-switch-button-wiring]]]
+[[[multiple-crafted-switch-button-wiring]]]
 
 **Tip:** If you want to use components you have not used before, or need to wire some more, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide. 
 
