@@ -111,11 +111,11 @@ from picozero import Pot
 
 Create a variable for each input component using the pin that you have connected it to:
 
-single button pins ingredient
-mulitple button LEDs pin ingredient
-single switch pins ingredient
-mulitple switches LEDs pin ingredient
-potentiometer pins ingredient
+single-button-pins
+multiple-button-pins
+single-switch-pins
+multiple-switches-pin
+potentiometer-pins
 
 --- /task ---
 
@@ -251,16 +251,6 @@ Code runs, but nothings happens:
 + Check that your inputs are connected correctly and that you used the correct pin in your code
 + Check the Thonny Shell for any messages about variables or functions not being defined, you might have forgotten to change the examples to match your code
 + Check your code carefully. You could add `print` statements to help you understand what is happening. 
-
---- collapse ---
-
----
-title: 
----
-
-
-
---- /collapse ---
 
 If you find a bug that is not listed here. Can you work out how to fix it?
 
