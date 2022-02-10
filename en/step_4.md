@@ -27,8 +27,8 @@ You will also need two socket-socket jumper wires for each button or three socke
 
 Connect your input components to the Raspberry Pi Pico.
 
-single-button-wiring
-multiple-button-wiring
+[[[single-button-wiring]]]
+[[[multiple-button-wiring]]]
 [[[potentiometer-wiring]]]
 [[[crafted-switch-button-wiring]]]
 [[[multiple-crafted-switch-button-wiring]]]

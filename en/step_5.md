@@ -48,6 +48,59 @@ You could use:
 Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start!
 
 --- collapse ---
+
+---
+title: Mount components in card or plastic
+---
+
+You may want to mount LEDs, buttons, buzzers and potentiometers in card or plastic. 
+
+If your components have soldered jumper wires, make a hole in the card or plastic and then push the component through from the back.
+
+![desc](images/path)
+
+If you are using components with socket-socket jumper wires then remove the jumper wires and push the legs of the component through card. For plastic you will need make holes first by carefully using a tool with a sharp point. 
+
+**Tip:** Remember which leg connects to which jumper wire. 
+
+Then reconnect the jumper wires on the back of the card or plastic. 
+
+If necessary you can use sticky tape or electrical tape to keep your components in place. 
+
+![desc](images/path)
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Diffuse light from LEDs
+---
+
+You often get a better visual effect by diffusing (spreading out) the light from an LED, especially if you are using clear LEDs or RGB LEDs that mix multiple colours. 
+
+Placing an LED behind a material such as thin paper or invisible sticky tape will spread the light over a larger area and create a softer effect that is nicer to look at. 
+
+![desc](images/path)
+
+You can also use a white material, such as paper to direct light in the direction you want it to be seen from so that you make the most of the light from the LED. 
+
+--- /collapse ---
+
+
+--- collapse ---
+
+---
+title: Use tape to hold jumper wires in place
+---
+
+Use sticky tape or electrical tape to hold jumper wires in place so that your device stays together. 
+
+You can remove the tape later if you want to reuse the components. 
+
+--- /collapse ---
+
+--- collapse ---
 ---
 title: Using a craft or utility knife
 ---
