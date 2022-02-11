@@ -35,11 +35,11 @@ Drop switch
 
 Explore these examples to get more ideas.
 
-Mood lamp
+**Mood lamp**
 ![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
-Mood dial
+**Mood dial**
 ![desc](images/mood-dial.gif)
-Focus indicator
+**Focus indicator**
 ![A box with three emojis on the front. One is a stop sign, one is a hands up and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
 
 --- no-print ---
