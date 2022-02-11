@@ -5,7 +5,7 @@
 How will your mood check-in device show different moods? How will the user select their mood? 
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
 </div>
 </div>
 
