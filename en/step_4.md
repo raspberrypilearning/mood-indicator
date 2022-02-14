@@ -112,10 +112,10 @@ from picozero import Pot
 
 Create a variable for each input component using the pin that you have connected it to:
 
-single-button-pins
-multiple-button-pins
-single-switch-pins
-multiple-switches-pin
+[[[single-button-pins]]]
+[[[multiple-button-pins]]]
+[[[single-switch-pins]]]
+[[[multiple-switches-pins]]]
 potentiometer-pins
 
 --- /task ---
