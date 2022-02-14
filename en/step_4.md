@@ -116,7 +116,7 @@ Create a variable for each input component using the pin that you have connected
 [[[multiple-button-pins]]]
 [[[single-switch-pins]]]
 [[[multiple-switches-pins]]]
-potentiometer-pins
+[[[potentiometer-pin]]]
 
 --- /task ---
 
