@@ -87,7 +87,6 @@ You can also use a white material, such as paper to direct light in the directio
 
 --- /collapse ---
 
-
 --- collapse ---
 
 ---
