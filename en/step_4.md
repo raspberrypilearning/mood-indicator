@@ -5,7 +5,7 @@
 Now you need a way for the user to change moods using button or potentiometer inputs. 
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![A box with three emojis on the front. One is a stop sign, one is a hands up and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif){:width="300px"}
 </div>
 </div>
 

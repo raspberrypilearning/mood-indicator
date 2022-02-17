@@ -5,7 +5,7 @@
 </div>
 It's good practice to build your project up gradually. In this step, you will connect and code your LEDs to show different moods and test that this is working.
 <div>
-![](images/image.png){:width="300px"}
+![A potentiometer is turned and an LED behind some paper and a face changes colour.](images/mood-dial.gif){:width="300px"}
 </div>
 </div>
 
