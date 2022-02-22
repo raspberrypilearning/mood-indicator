@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Introduction to Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Sound Machine](https://projects.raspberrypi.org/en/projects/sound-machine) project. In this project, you will make a a sound machine that will play sound effects or music using buttons, switches or a potentiometer.
+If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Sound Machine](https://projects.raspberrypi.org/en/projects/sound-machine) project. In this project, you will make a a sound machine that will play sound effects or music using buttons, switches or a potentiometer.
 
 --- print-only ---
 
