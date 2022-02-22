@@ -63,9 +63,11 @@ Explore these examples to get more ideas.
 **Mood lamp**
 A single button is used with a single RGB LED to create a mood lamp using a paper cup and some tracing paper. Each time the button is pressed, the colour changes. 
 ![desc](images/mood-lamp.PNG)
+
 **Mood dial**
 A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood.
 ![desc](images/mood-dial.PNG)
+
 **Focus indicator**
 Three buttons and three single colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work and the 'smiley face' emoji means that they are happily working. 
 ![desc](images/dnd-indicator.PNG)

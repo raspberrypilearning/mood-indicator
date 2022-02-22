@@ -24,6 +24,12 @@ Make the physical parts of your new mood check-in.
 In <span style="color: #0faeb0">optics</span> (the study of light and seeing), a <b>diffuser</b> is any material that scatters light in some way. Some LED bulbs are quite directed in their light and so can't be seen very well from a distance, or can be painfully bright to look at from the wrong angle. Using a diffuser can help stop these things from happening and make your light shine in a much more pleasing way. You can make a very simple diffuser just by covering your LED with a thin piece of paper.
 </p>
 
+This mood check-in uses a balloon as a diffuser, and different sized conductive tokens to close separate switches and set the mood:
+<video width="640" height="360" controls>
+<source src="images/vibechecker.mp4" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
+
 --- task ---
 
 **Find** the materials you will use to create the physical parts of your mood check-in.
