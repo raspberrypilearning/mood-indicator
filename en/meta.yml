@@ -1,0 +1,25 @@
+title: Mood check-in device
+hero_image: images/banner.png
+description: Create a mood check-in device with coloured lights to emote your current mood. 
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Introduction
+  - title: Design your mood check-in
+  - title: Code your mood lights
+    completion: engaged
+  - title: Change your mood
+  - title: Craft your device
+    completion: internal
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: Upgrade your project
+  - title: Share
+  - title: What next?
