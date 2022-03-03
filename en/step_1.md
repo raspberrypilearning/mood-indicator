@@ -25,9 +25,7 @@ To complete this project you will need:
 
 **Look:** Take a look at this mood check-in device. How does it use colour to communicate a mood? How do you change the colour displayed? 
 
-Drop switch
-
-![desc](images/drop-switch.gif)
+![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
 
 --- /task ---
 
@@ -37,10 +35,10 @@ Drop switch
 
 Explore these examples to get more ideas.
 
-**Mood lamp**
-A single button is used with a single RGB LED to create a mood lamp using a paper cup and some tracing paper. Each time the button is pressed, the colour changes. 
+**Drop switch**
+Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, the light matches the mood.
 
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
+![A silver token is dropped into a box and a red light displays.](images/drop-switch.gif)
 
 **Mood dial**
 A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood.
