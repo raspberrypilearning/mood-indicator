@@ -36,9 +36,22 @@ You could use:
 
 **Choose:** How will your device communicate mood use light patterns?
 
+--- collapse ---
+
+---
+title: Do particular colours have a meaning to you?
+---
+
++ Red is a popular color in Chinese culture, symbolizing luck, joy, and happiness.
++ In theatre, wearing the colour green on stage can be seen as unlucky.
++ Depending on the culture, yellow, orange or red could represent happiness.  
++ Brighter colours are associated with excitement. 
++ Blue and green have been associated with calmness and relaxation.
+
+--- /collapse ---
+
 You could use: 
 + Different colours: will you use colours associated with the moods? Red for anger or love, blue for calm or sadness 
-
 
 You could make notes or draw a sketch of your plan. 
 

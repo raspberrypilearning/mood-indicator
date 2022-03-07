@@ -36,7 +36,7 @@ To complete this project you will need:
 Explore these examples to get more ideas.
 
 **Drop switch**
-Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, the light matches the mood.
+Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, the light matches the mood. The tokens show a sad or an angry mood. 
 
 ![A silver token is dropped into a box and a red light displays.](images/drop-switch.gif)
 
