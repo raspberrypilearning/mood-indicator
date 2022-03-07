@@ -42,8 +42,6 @@ title: Import the single LED
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1
 ---
 
 from picozero import LED
@@ -63,8 +61,6 @@ title: Import the RGB LED
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1
 ---
 
 from picozero import RGBLED
@@ -102,8 +98,6 @@ title: Add a function to turn on a single LED
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1-2
 ---
 def excited(): # Your mood
     purple.on() # Turn on
@@ -123,8 +117,6 @@ title: Add functions to control multiple single LEDs
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1-2
 ---
 def excited(): # Your first mood
     purple.on() # Turn on
@@ -149,8 +141,6 @@ title: Add functions to set an RGB LED colour
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1-5
 ---
 def happy(): # Your first mood
     rgb.color = (0, 255, 0) # Your first colour
