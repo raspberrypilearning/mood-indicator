@@ -25,9 +25,7 @@ To complete this project you will need:
 
 **Look:** Take a look at this mood check-in device. How does it use colour to communicate a mood? How do you change the colour displayed? 
 
-Drop switch
-
-![desc](images/drop-switch.gif)
+![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
 
 --- /task ---
 
@@ -37,10 +35,10 @@ Drop switch
 
 Explore these examples to get more ideas.
 
-**Mood lamp**
-A single button is used with a single RGB LED to create a mood lamp using a paper cup and some tracing paper. Each time the button is pressed, the colour changes. 
+**Drop switch**
+Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, the light matches the mood. The tokens show a sad or an angry mood. 
 
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
+![A silver token is dropped into a box and a red light displays.](images/drop-switch.gif)
 
 **Mood dial**
 A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood.
@@ -51,6 +49,10 @@ A potentiometer is used with a single RGB LED to create a mood dial. The user ca
 Three buttons and three single colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work and the 'smiley face' emoji means that they are happily working. 
 
 ![A box with three emojis on the front. One is a stop sign, one is a hands up and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
+
+**Vibe Checker**
+Three switches and a single RGB LED are used with conductive tokens to show how you're feeling today. When the tokens are dropped in the box, they link the conductive bands and close the switches, lighting the LED different colours.
+![A box with three copper stripes across the inside, and a balloon labelled vibe today. Changing the token in the box makes the light shine different colours.](images/vibechecker.gif)
 
 --- /no-print ---
 
@@ -63,12 +65,20 @@ Explore these examples to get more ideas.
 **Mood lamp**
 A single button is used with a single RGB LED to create a mood lamp using a paper cup and some tracing paper. Each time the button is pressed, the colour changes. 
 ![desc](images/mood-lamp.PNG)
+
 **Mood dial**
 A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood.
 ![desc](images/mood-dial.PNG)
+
 **Focus indicator**
 Three buttons and three single colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work and the 'smiley face' emoji means that they are happily working. 
 ![desc](images/dnd-indicator.PNG)
+
+
+**Vibe Checker**
+Three switches and a single RGB LED are used with conductive tokens to show how you're feeling today. When the tokens are dropped in the box, they link the conductive bands and close the switches, lighting the LED different colours.
+![desc](images/vibechecker.jpg)
+
 
 --- /print-only ---
 
