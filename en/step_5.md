@@ -5,7 +5,7 @@
 Make the physical parts of your new mood check-in.
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
 </div>
 </div>
 
@@ -78,6 +78,19 @@ You can remove the tape later if you want to reuse the components.
 **Embed** your mood check-in components into your casing and **attach** them to your interface.
 
 [[[joining-jumper-wires]]] 
+
+--- /task ---
+
+--- task ---
+
+**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+
+[[[debug-pico-code]]]
+[[[debug-pico-hardware]]]
+
+If you find a bug that is not listed here. Can you work out how to fix it?
+
+We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
 
 --- /task ---
 

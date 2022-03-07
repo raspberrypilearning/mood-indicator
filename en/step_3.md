@@ -152,6 +152,12 @@ def sad(): # Your second mood
 
 --- /collapse ---
 
+<mark>Add collapse for blink, pulse, cycle.</mark>
+
+led-blink
+led-pulse
+rgb-cycle
+
 [[[generic-theory-simple-colours]]]
 
 **Tip:** Add comments to your code next to the colour values so that you remember what colours you have created for each mood. 
@@ -200,6 +206,9 @@ happy()
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
+[[[debug-pico-code]]]
+[[[debug-pico-hardware]]]
+
 --- collapse ---
 
 ---
@@ -213,7 +222,7 @@ Check that the pins in your code match the pins your LED is connected to.
 --- collapse ---
 
 ---
-title: My RGB LED show the wrong colour
+title: My RGB LED shows the wrong colour
 ---
 
 Check your code to make sure that your colour values are in the right order. Use the ['RGB Colour guide'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to check your code matches the colour you expect.

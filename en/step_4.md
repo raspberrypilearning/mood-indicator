@@ -54,8 +54,6 @@ title: Import Button
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1
 ---
 
 from picozero import Button
@@ -75,8 +73,6 @@ title: Import Switch
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1
 ---
 
 from picozero import Switch
@@ -96,8 +92,6 @@ title: Import Potentiometer
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1
 ---
 
 from picozero import Pot
@@ -140,8 +134,6 @@ Make sure you use the function names from your project and just use the name of 
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
 ---
 
 happy_button.when_pressed = happy
@@ -167,8 +159,6 @@ Make sure the function names match the mood functions you defined in the previou
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
 ---
 option = 0 # store the current option
 
@@ -210,8 +200,6 @@ You can use `dial.percent` to get a value between 0 and 1 from the potentiometer
 language: python
 filename: mood-check-in.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
 ---
 
 while True:
@@ -246,12 +234,8 @@ while True:
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
-[pico-common-code-errors]
-
-Code runs, but nothings happens:
-+ Check that your inputs are connected correctly and that you used the correct pin in your code
-+ Check the Thonny Shell for any messages about variables or functions not being defined, you might have forgotten to change the examples to match your code
-+ Check your code carefully. You could add `print` statements to help you understand what is happening. 
+[[[debug-pico-code]]]
+[[[debug-pico-hardware]]]
 
 If you find a bug that is not listed here. Can you work out how to fix it?
 
