@@ -50,10 +50,6 @@ Three buttons and three single colour LEDs are used to show what support someone
 
 ![A box with three emojis on the front. One is a stop sign, one is a hands up and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
 
-**Vibe Checker**
-Three switches and a single RGB LED are used with conductive tokens to show how you're feeling today. When the tokens are dropped in the box, they link the conductive bands and close the switches, lighting the LED different colours.
-![A box with three copper stripes across the inside, and a balloon labelled vibe today. Changing the token in the box makes the light shine different colours.](images/vibechecker.gif)
-
 --- /no-print ---
 
 --- print-only ---
@@ -73,12 +69,6 @@ A potentiometer is used with a single RGB LED to create a mood dial. The user ca
 **Focus indicator**
 Three buttons and three single colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work and the 'smiley face' emoji means that they are happily working. 
 ![desc](images/dnd-indicator.PNG)
-
-
-**Vibe Checker**
-Three switches and a single RGB LED are used with conductive tokens to show how you're feeling today. When the tokens are dropped in the box, they link the conductive bands and close the switches, lighting the LED different colours.
-![desc](images/vibechecker.jpg)
-
 
 --- /print-only ---
 
