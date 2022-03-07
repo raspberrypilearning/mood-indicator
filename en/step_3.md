@@ -156,7 +156,7 @@ def sad(): # Your second mood
 
 led-blink
 led-pulse
-rgb-cycle
+cycle-led
 
 [[[generic-theory-simple-colours]]]
 
