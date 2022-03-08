@@ -6,7 +6,7 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 <mark>Add in the image when created</mark>
 
-![ProjectName project](images/projectname-project.png)
+![Sound machine](images/sound-machine.png)
 
 --- /print-only ---
 

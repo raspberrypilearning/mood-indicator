@@ -17,7 +17,7 @@ A prototype that tests the connections and coded design choices will highlight a
 
 --- task ---
 
-Connect your LED(s) to the Raspberry Pi Pico:
+**Choose:** Connect your single LEDs or RGB LED to the Raspberry Pi Pico:
 
 [[[multiple-single-led-wiring]]]
 [[[rgb-wiring]]]
@@ -28,7 +28,7 @@ Connect your LED(s) to the Raspberry Pi Pico:
 
 --- task ---
 
-Import the type of LED that you are using from the picozero library then set the pins for your connected LED(s):
+**Choose:** Import LED or RGBLED from the picozero library then set the pins for your connected LED(s):
 
 [[[multiple-single-led-pins]]]
 [[[rgb-led-pins]]]
@@ -39,7 +39,7 @@ Import the type of LED that you are using from the picozero library then set the
 
 **Create:** functions for each mood that you want to use in your project. 
 
-Add code within the new functions to set the LED to your chosen design for that mood:
+**Choose:** Add code within the new functions to set the LED to your chosen design for that mood:
 
 --- collapse ---
 
@@ -50,7 +50,7 @@ title: Turn on and off multiple single LEDs
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: mood_indicator.py
 line_numbers: false
 ---
 def excited(): # Your first mood
@@ -78,7 +78,7 @@ Blink an LED:
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: mood_indicator.py
 line_numbers: false
 ---
 
@@ -106,7 +106,7 @@ title: Turn on an RGB LED with specific colour
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: mood_indicator.py
 line_numbers: false
 ---
 def happy(): # Your first mood
@@ -130,7 +130,7 @@ Use `blink`, `pulse` or `cycle` to change between colours on an RGB LED.
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: mood_indicator.py
 line_numbers: false
 ---
 def energise():
@@ -166,7 +166,7 @@ title: Call a mood function
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: mood_indicator.py
 line_numbers: false
 line_number_start: 1
 line_highlights: 7

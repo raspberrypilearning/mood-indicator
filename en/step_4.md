@@ -11,7 +11,7 @@ Now you need a way for the user to change moods using button or potentiometer in
 
 --- task ---
 
-**Find** the input components that you want to use for your mood check-in. 
+**Find** the input components that you want to use for your mood indicator. 
 
 You could use:
 + One button for each mood
@@ -25,7 +25,7 @@ You will also need two socket-socket jumper wires for each button or three socke
 
 --- task ---
 
-Connect your input components to the Raspberry Pi Pico.
+**Choose:** Connect your chosen input components to the Raspberry Pi Pico.
 
 [[[single-button-wiring]]]
 [[[multiple-button-wiring]]]
@@ -39,7 +39,7 @@ Connect your input components to the Raspberry Pi Pico.
 
 --- task ---
 
-Import your input component from the picozero library then create a variables for the connected pins:
+**Choose:** Import your chosen input components from the picozero library then create variables for the connected pins:
 
 **Tip:** You can combine multiple imports into one line, for example `from picozero import LED, Button`.
 
@@ -51,35 +51,9 @@ Import your input component from the picozero library then create a variables fo
 
 --- /task ---
 
-Now you need to add code to call your mood functions based on the input. 
-
 --- task ---
 
-
---- collapse ---
-
----
-title: Call a different function when each button is pressed
----
-
-You can have multiple buttons that each call a different function when they are pressed. 
-
-Make sure you use the function names from your project and just use the name of the function, do not call it by adding brackets.
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-
-happy_button.when_pressed = happy
-sad_button.when_pressed = sad
-angry_button.when_pressed = angry
-
---- /code ---
-
---- /collapse ---
+**Choose:** Add code to call your mood functions based on your chosen input component. 
 
 --- collapse ---
 
@@ -94,7 +68,7 @@ Make sure the function names match the mood functions you defined in the previou
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: mood_indicator.py
 line_numbers: false
 ---
 option = 0 # store the current option
@@ -125,6 +99,31 @@ button.when_pressed = choice # Call the choice function when the button is press
 --- collapse ---
 
 ---
+title: Call a different function when each button is pressed
+---
+
+You can have multiple buttons that each call a different function when they are pressed. 
+
+Make sure you use the function names from your project and just use the name of the function, do not call it by adding brackets.
+
+--- code ---
+---
+language: python
+filename: mood_indicator.py
+line_numbers: false
+---
+
+happy_button.when_pressed = happy
+sad_button.when_pressed = sad
+angry_button.when_pressed = angry
+
+--- /code ---
+
+--- /collapse ---
+
+--- collapse ---
+
+---
 title: Call a function based on the value of the potentiometer
 ---
 
@@ -135,11 +134,11 @@ You can use `dial.percent` to get a value between 0 and 1 from the potentiometer
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: mood_indicator.py
 line_numbers: false
 ---
 
-while True:
+while True: # loop to call a function based on the dial position
     mood = dial.percent
     print(mood)
     if mood < 20:
