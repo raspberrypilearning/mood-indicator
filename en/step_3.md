@@ -204,7 +204,7 @@ Update you new code to call your mood functions one at a time testing each one b
 --- collapse ---
 
 ---
-title: Call a function 
+title: Call a mood function 
 ---
 
 --- code ---
@@ -244,7 +244,7 @@ happy() # change this line to try each of your functions
 title: My LED doesn't light when I call my mood function
 ---
 
-Check that the pins in your code match the pins your LED is connected to.
+Check that the pins in your code match the pins your LED(s) are connected to.
 
 --- /collapse ---
 
