@@ -36,10 +36,44 @@ title: See inside
 language: python
 filename: mood-lamp.py
 line_numbers: true
-line_number_start: 
+line_number_start: 1
 line_highlights: 
 ---
+from picozero import RGBLED, Switch
+from time import sleep
 
+rgb = RGBLED(red=1, green=2, blue=3) # pin numbers
+switch = Switch(18)
+
+option = 0
+
+def calm():
+    rgb.color = (255, 255, 0)
+
+def focused():
+    rgb.color = (0, 215, 0)   
+    
+def energised():
+    rgb.color = (63, 204, 208)
+
+def choice():
+    global option
+    if option == 0:
+        energised()
+    elif option == 1:
+        calm()
+    elif option == 2:
+        focused()
+    elif option == 3:    
+        rgb.off()
+    
+    if option == 3:
+        option = 0
+    else:
+        option = option + 1
+    
+
+switch.when_closed = choice
 --- /code ---
 
 --- /collapse ---
@@ -114,7 +148,51 @@ line_numbers: true
 line_number_start: 
 line_highlights: 
 ---
+from picozero import LED, Speaker, Button
+from time import sleep
 
+eat = LED(13)
+drink = LED(8)
+play = LED(5)
+
+speaker = Speaker(1)
+
+choose = Button(18)
+confirm = Button(22)
+
+option = 0 # store the current option
+
+def choice(): # call the next function and update the option
+    global option
+    if option == 0:
+        eat.on()
+        drink.off()
+        play.off()
+    elif option == 1:
+        eat.off()
+        drink.on()
+        play.off()    
+    elif option == 2:
+        eat.off()
+        drink.off()
+        play.on()   
+    elif option == 3:
+        eat.off()
+        drink.off()
+        play.off()
+
+    if option == 3:
+        option = 0
+    else:
+        option = option + 1
+
+def sound_buzzer():
+    speaker.on()
+    sleep(1)
+    speaker.off()
+
+choose.when_pressed = choice 
+confirm.when_pressed = sound_buzzer
 --- /code ---
 
 
