@@ -10,6 +10,15 @@ You can look inside each of the examples in the [Introduction](.) to see the how
 
 --- task ---
 
+Develop your blink, pulse, and cycle mood patterns. Add more timing, repeat, and colour settings:
+
+[[[pico-led-blink-pulse]]]
+[[[[pico-rgb-led-blink-pulse-cycle]]]]
+
+--- /task ---
+
+--- task ---
+
 <mark>Marc, please make an example for here :)</mark>
 
 Here are some other ideas you could try:

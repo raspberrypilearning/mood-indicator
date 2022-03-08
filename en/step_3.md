@@ -88,7 +88,7 @@ Add code within the new functions to set the LED to your chosen design for that 
 --- collapse ---
 
 ---
-title: Add functions to control multiple single LEDs
+title: Turn on and off multiple single LEDs
 ---
 
 --- code ---
@@ -112,7 +112,7 @@ def worried(): # Your second mood
 --- collapse ---
 
 ---
-title: Blink or pulse a single colour LED
+title: Blink or pulse multiple single colour LED
 ---
 
 Use blink or pulse to turn an LED on and off.
@@ -137,27 +137,6 @@ def do_not_disturb(): # first mood
 
 --- /code ---
 
-Change the blink or pulse timing:
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-
-def calm():
-    yellow.off() # turn off the yellow LED 
-    blue.blink(on_time=1, off_time=0.5)
-
-def worried():
-    blue.off() # turn off the yellow LED 
-    yellow.pulse(fade_in_time=2, fade_out_time=1) # take 2 seconds to brighten and 1 second to dim
-
---- /code ---
-
-**Tip:** If you don't set off_time then it will be the same as on_time. 
-
 **Tip:** You can mix single colour, blink and pulse effects in the same project to create the moods you want. 
 
 --- /collapse ---
@@ -165,7 +144,7 @@ def worried():
 --- collapse ---
 
 ---
-title: Add functions to set an RGB LED colour
+title: Turn on an RGB LED with specific colour
 ---
 
 --- code ---
@@ -187,12 +166,10 @@ def sad(): # Your second mood
 --- collapse ---
 
 ---
-title: Blink an RGB LED
+title: Blink, pulse or cycle an RGB LED
 ---
 
-Use `blink` change between colours on an RGB LED. 
-
-Blink an LED:  
+Use `blink`, `pulse` or `cycle` to change between colours on an RGB LED. 
 
 --- code ---
 ---
@@ -203,105 +180,12 @@ line_numbers: false
 def energise():
     rgb.blink() # red for 1 second, green for 1 second, blue for 1 second
 
+def neutral():
+    rgb.pulse(fade_times=3) # slow pulse
+    
 def relax():
-    rgb.pulse(3) # slow pulse
+    rgb.cycle(fade_times=4)
 --- /code ---
-
-Blink on and off between a single colour and off `(0, 0, 0)`:
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-# blink purple 2 seconds, off 0.5 seconds
-rgb.blink(on_times=(2, 0.5), colors=((255, 0, 255), (0, 0, 0)), wait=True, n=3)
-print("Finished blinking") # Runs after 3 repeats
---- /code ---
-
-Blink a fixed number of times, with different timings and colours:
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-# blink red 1 second, green 0.5 seconds, blue 0.25 seconds
-rgb.blink((1, 0.5, 0.25), colors=((255, 0, 0), (0, 255, 0), (0, 0, 255)), wait=True, n=2)
-print("Finished blinking") # Runs after 2 blink repeats
-
---- /code ---
-
-**Tip:** If you don't set off_time then it will be the same as on_time. 
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Pulse an RGB LED
----
-
-Use `pulse` to gradually change the brightness and colour of an RGB LED:
-
---- code ---
----
-language: python
-line_numbers: false
----
-rgb.pulse() # pulse red for 1 second, green for 1 second, blue for 1 second
-print("Pulsing") # Runs immediately
-
---- /code ---
-
-Control the pulse speed between a colour and off `(0, 0, 0)` with a fixed number of repeats:
-
---- code ---
----
-language: python
-line_numbers: false
----
-# 2 second to fade from purple to off, 0.5 seconds to change from off to purple 
-rgb.pulse(fade_times=(2, 0.5), colors=((255, 0, 255), (0, 0, 0)), wait=True, n=3)
-print("Finished pulsing") # Runs after 3 pulses
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Cycle through colours on an RGB LED
----
-
-Use `cycle` to gradually change between colours:
-
---- code ---
----
-language: python
-line_numbers: false
----
-rgb.cycle() # Gradually colour cycle through colours between red and green, green and blue then blue and red
-print("Cycle") # Runs immediately 
-
---- /code ---
-
-Control the colour, times and repeats:
-
---- code ---
----
-language: python
-line_numbers: false
----
-# Colour cycle slower in the opposite direction
-rgb.cycle(fade_times=3, colors=((0, 0, 255), (0, 255, 0), (255, 0, 0)), wait=True, n=2)
-rgb.off()
-
---- /code ---
-
 
 --- /collapse ---
 
@@ -313,11 +197,7 @@ rgb.off()
 
 --- task ---
 
-At the end of your code, underneath your mood function definitions, add code to call your first function. 
-
-**Tip:** Make sure you new code is not indented.
-
-**Test:** Run your code to test the LED(s) work as expected.
+**Test:** At the end of your code, underneath your mood function definitions, add code to call your first function. 
 
 Update you new code to call your mood functions one at a time testing each one by running your code.
 
@@ -341,11 +221,13 @@ def happy(): # Your first mood
 def sad(): # Your second mood
     rgb.color = (255, 0, 0) # Your second colour
 
-happy() 
+happy() # change this line to try each of your functions
 
 --- /code ---
 
 --- /collapse ---
+
+**Tip:** Make sure you new code is not indented.
 
 --- /task ---
 
