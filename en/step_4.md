@@ -39,7 +39,7 @@ Connect your input components to the Raspberry Pi Pico.
 
 --- task ---
 
-Import the type(s) of input component you are using from the picozero library then create a variables for the pin(s) that you have connected it to:
+Import your input component from the picozero library then create a variables for the connected pins:
 
 **Tip:** You can combine multiple imports into one line, for example `from picozero import LED, Button`.
 
