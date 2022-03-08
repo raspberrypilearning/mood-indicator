@@ -39,72 +39,9 @@ Connect your input components to the Raspberry Pi Pico.
 
 --- task ---
 
-Import the type of input component you are using from the picozero library:
+Import the type(s) of input component you are using from the picozero library then create a variables for the pin(s) that you have connected it to:
 
 **Tip:** You can combine multiple imports into one line, for example `from picozero import LED, Button`.
-
---- collapse ---
-
----
-title: Import Button
----
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-
-from picozero import Button
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Import Switch
----
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-
-from picozero import Switch
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Import Potentiometer
----
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-
-from picozero import Pot
-
---- /code ---
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-Create a variable for each input component using the pin that you have connected it to:
 
 [[[single-button-pins]]]
 [[[multiple-button-pins]]]

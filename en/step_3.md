@@ -28,51 +28,7 @@ Connect your LED(s) to the Raspberry Pi Pico:
 
 --- task ---
 
-Import the type of LED that you are using from the picozero library:
-
---- collapse ---
-
----
-title: Import the single LED 
----
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-
-from picozero import LED
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Import the RGB LED
----
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-
-from picozero import RGBLED
-
---- /code ---
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-Add code to set the pins for your connected LED(s):
+Import the type of LED that you are using from the picozero library then set the pins for your connected LED(s):
 
 [[[multiple-single-led-pins]]]
 [[[rgb-led-pins]]]
