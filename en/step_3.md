@@ -19,7 +19,6 @@ A prototype that tests the connections and coded design choices will highlight a
 
 Connect your LED(s) to the Raspberry Pi Pico:
 
-[[[single-led-wiring]]]
 [[[multiple-single-led-wiring]]]
 [[[rgb-wiring]]]
 
@@ -75,7 +74,6 @@ from picozero import RGBLED
 
 Add code to set the pins for your connected LED(s):
 
-[[[sing-led-pins]]]
 [[[multiple-single-led-pins]]]
 [[[rgb-led-pins]]]
 
@@ -90,26 +88,7 @@ Add code within the new functions to set the LED to your chosen design for that 
 --- collapse ---
 
 ---
-title: Add a function to turn on a single LED
----
-
---- code ---
----
-language: python
-filename: mood-check-in.py
-line_numbers: false
----
-def excited(): # Your mood
-    purple.on() # Turn on
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Add functions to control multiple single LEDs
+title: Turn on and off multiple single LEDs
 ---
 
 --- code ---
@@ -133,7 +112,39 @@ def worried(): # Your second mood
 --- collapse ---
 
 ---
-title: Add functions to set an RGB LED colour
+title: Blink or pulse multiple single colour LED
+---
+
+Use blink or pulse to turn an LED on and off.
+
+Blink an LED:
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+---
+
+def available(): # first mood
+    red.off() # turn off the red LED
+    green.blink() 
+
+
+def do_not_disturb(): # first mood
+    green.off() # turn off the green LED
+    red.pulse() 
+
+--- /code ---
+
+**Tip:** You can mix single colour, blink and pulse effects in the same project to create the moods you want. 
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Turn on an RGB LED with specific colour
 ---
 
 --- code ---
@@ -152,11 +163,31 @@ def sad(): # Your second mood
 
 --- /collapse ---
 
-<mark>Add collapse for blink, pulse, cycle.</mark>
+--- collapse ---
 
-led-blink
-led-pulse
-rgb-cycle
+---
+title: Blink, pulse or cycle an RGB LED
+---
+
+Use `blink`, `pulse` or `cycle` to change between colours on an RGB LED. 
+
+--- code ---
+---
+language: python
+filename: mood-check-in.py
+line_numbers: false
+---
+def energise():
+    rgb.blink() # red for 1 second, green for 1 second, blue for 1 second
+
+def neutral():
+    rgb.pulse(fade_times=3) # slow pulse
+    
+def relax():
+    rgb.cycle(fade_times=4)
+--- /code ---
+
+--- /collapse ---
 
 [[[generic-theory-simple-colours]]]
 
@@ -166,18 +197,14 @@ rgb-cycle
 
 --- task ---
 
-At the end of your code, underneath your mood function definitions, add code to call your first function. 
-
-**Tip:** Make sure you new code is not indented.
-
-**Test:** Run your code to test the LED(s) work as expected.
+**Test:** At the end of your code, underneath your mood function definitions, add code to call your first function. 
 
 Update you new code to call your mood functions one at a time testing each one by running your code.
 
 --- collapse ---
 
 ---
-title: Call a function 
+title: Call a mood function 
 ---
 
 --- code ---
@@ -194,11 +221,13 @@ def happy(): # Your first mood
 def sad(): # Your second mood
     rgb.color = (255, 0, 0) # Your second colour
 
-happy() 
+happy() # change this line to try each of your functions
 
 --- /code ---
 
 --- /collapse ---
+
+**Tip:** Make sure you new code is not indented.
 
 --- /task ---
 
@@ -215,7 +244,7 @@ happy()
 title: My LED doesn't light when I call my mood function
 ---
 
-Check that the pins in your code match the pins your LED is connected to.
+Check that the pins in your code match the pins your LED(s) are connected to.
 
 --- /collapse ---
 
