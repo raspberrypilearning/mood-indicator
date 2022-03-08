@@ -34,7 +34,7 @@ title: See inside
 --- code ---
 ---
 language: python
-filename: mood-lamp.py
+filename: mood_lamp.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 
@@ -48,13 +48,13 @@ switch = Switch(18)
 option = 0
 
 def calm():
-    rgb.color = (255, 255, 0)
+    rgb.color = (255, 255, 0) # yellow
 
 def focused():
-    rgb.color = (0, 215, 0)   
+    rgb.color = (0, 215, 0) # orange
     
 def energised():
-    rgb.color = (63, 204, 208)
+    rgb.color = (63, 204, 208) # green
 
 def choice():
     global option
@@ -87,7 +87,7 @@ switch.when_closed = choice
 Explore these examples to get more ideas.
 
 **Drop switch**
-Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, the light matches the mood. The tokens show a sad or an angry mood. 
+Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, they close different switches and set the light colour to match the mood. The tokens show a sad, happy or angry mood. 
 
 ![A silver token is dropped into a box and a red light displays.](images/drop-switch.gif)
 
@@ -98,11 +98,31 @@ title: See inside
 --- code ---
 ---
 language: python
-filename: drop-switch.py
+filename: drop_switch.py
 line_numbers: true
 line_number_start: 
 line_highlights: 
 ---
+from time import sleep
+from picozero import Button, RGBLED
+
+
+happy = Button(13) # longest token
+angry = Button(14) # medium token
+sad = Button(15) # shortest token
+led = RGBLED(18, 17, 16)
+
+
+while True: # create a loop which checks for the different token
+    if happy.is_pressed: # look for the longest token first
+        print('happy!')
+        led.color = (255,255,0) # yellow
+    elif angry.is_pressed: # check for the medium token next
+        print('ANGRY!')
+        led.color = (255,0,0) # red
+    elif sad.is_pressed: # check for the shortest token last
+        print('sad and blue...')
+        led.color = (0,125,255) # blue
 
 --- /code ---
 
@@ -120,11 +140,48 @@ title: See inside
 --- code ---
 ---
 language: python
-filename: mood-dial.py
+filename: mood_dial.py
 line_numbers: true
 line_number_start: 
 line_highlights: 
 ---
+
+from picozero import RGBLED, Pot
+from time import sleep
+
+rgb = RGBLED(red=1, green=2, blue=3)
+dial = Pot(0)
+
+def happy():
+    rgb.color = (0, 255, 0) # green
+    
+def good():
+    rgb.color = (75, 255, 0) # yellow-green
+
+def okay():
+    rgb.color = (255, 150, 0) # yellow
+    
+def unsure():
+    rgb.color = (255, 25, 0) # orange
+
+def unhappy():
+    rgb.color = (255, 0, 0) # red
+    
+
+while True:
+    mood = dial.percent
+    print(mood)
+    if mood < 20:
+        happy()
+    elif mood < 40:
+        good()
+    elif mood < 60:
+        okay()
+    elif mood< 80:
+        unsure()
+    else:
+        unhappy()
+    sleep(0.1)
 
 --- /code ---
 
@@ -143,7 +200,7 @@ title: See inside
 --- code ---
 ---
 language: python
-filename: focus-indicator.py
+filename: focus_indicator.py
 line_numbers: true
 line_number_start: 
 line_highlights: 
