@@ -4,18 +4,14 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 --- print-only ---
 
-<mark>Add in the image when created</mark>
-
-![Sound machine](images/sound-machine.png)
+![Sound machine](images/sound-board.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-<mark>Add in the video when created</mark>
-
 <video width="640" height="360" controls>
-<source src="images/file" type="video/mp4">
+<source src="images/sound_board.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
