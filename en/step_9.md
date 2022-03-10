@@ -4,7 +4,7 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 --- print-only ---
 
-![Sound machine](images/sound-board.png)
+![](images/sound-board.png)
 
 --- /print-only ---
 
