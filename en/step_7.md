@@ -35,7 +35,10 @@ If you come across a situation in future where you want to communicate or create
 
 --- task ---
 
-<mark>Marc or Mark, please make an example for here :)</mark>
+<video width="640" height="360" controls>
+<source src="images/mood-upgrade.mp4" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
 
 Here are some other ideas you could try:
 + Do some testing with your audience then improve usability
