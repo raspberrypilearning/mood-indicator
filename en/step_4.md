@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you need a way for the user to change moods using button or potentiometer inputs. 
+Now you need a way for the user to change moods using a button or potentiometer input. 
 </div>
 <div>
-![A box with three emojis on the front. One is a stop sign, one is a hands up and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif){:width="300px"}
+![A box with three emojis on the front. One is a stop sign, one is a hands up, and the other is an OK sign. Buttons next to them are pressed, which light the corresponding LED.](images/dnd-indicator.gif){:width="300px"}
 </div>
 </div>
 
@@ -16,10 +16,10 @@ Now you need a way for the user to change moods using button or potentiometer in
 You could use:
 + One button for each mood
 + A single button to move to the next mood
-+ Two socket to pin jumper wires that you can connect to a crafted button or switch
++ Two socket–pin jumper wires that you can connect to a crafted button or switch
 + A potentiometer to select the mood depending on the dial position
 
-You will also need two socket-socket jumper wires for each button or three socket-to-socket wires for a potentiometer. 
+You will also need two socket–socket jumper wires for each button or three socket–socket wires for a potentiometer. 
 
 --- /task ---
 
@@ -39,7 +39,7 @@ You will also need two socket-socket jumper wires for each button or three socke
 
 --- task ---
 
-**Choose:** Import your chosen input components from the picozero library then create variables for the connected pins:
+**Choose:** Import your chosen input components from the picozero library, then create variables for the connected pins.
 
 **Tip:** You can combine multiple imports into one line, for example `from picozero import LED, Button`.
 
@@ -71,20 +71,20 @@ language: python
 filename: mood_indicator.py
 line_numbers: false
 ---
-option = 0 # store the current option
+option = 0 # Store the current option
 
-def choice(): # call the next function and update the option
+def choice(): # Call the next function and update the option
     global option
     if option == 0:
-        energised() # your first mood
+        energised() # Your first mood
     elif option == 1:
-        calm()      # your second mood
+        calm()      # Your second mood
     elif option == 2:
-        focused()   # your third mood
+        focused()   # Your third mood
     elif option == 3:    
         rgb.off()
     
-    # move to the next option
+    # Move to the next option
     if option == 3:
         option = 0
     else:
@@ -127,9 +127,9 @@ angry_button.when_pressed = angry
 title: Call a function based on the value of the potentiometer
 ---
 
-If you are using a potentiometer to control outputs then you will need to divide up the dial into equal sections. 
+If you are using a potentiometer to control outputs, then you will need to divide up the dial into equal sections. 
 
-You can use `dial.percent` to get a value between 0 and 1 from the potentiometer. If you have 5 moods then you can check whether the value is less than 20, 40, 60, 80 or 100. If you have 3 moods then you can check whether the value is less that 33, 66 or 100. 
+You can use `dial.percent` to get a value between 0 and 1 from the potentiometer. If you have five moods, then you can check whether the value is less than 20, 40, 60, 80, or 100. If you have three moods, then you can check whether the value is less than 33, 66, or 100. 
 
 --- code ---
 ---
@@ -138,7 +138,7 @@ filename: mood_indicator.py
 line_numbers: false
 ---
 
-while True: # loop to call a function based on the dial position
+while True: # Loop to call a function based on the dial position
     mood = dial.percent
     print(mood)
     if mood < 20:
