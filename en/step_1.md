@@ -3,7 +3,7 @@
 Create a mood check-in device with coloured lights to emote your current mood. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Paying attention to your present mood is one way to support your wellbeing. Its <span style="color: #0faeb0">okay</span> to feel angry or sad, just as it is <span style="color: #0faeb0">okay</span> to feel happy or excited. A <span style="color: #0faeb0">mood check-in</span> is a time for you to notice how you are feeling and record it or let others know about it. 
+Paying attention to your present mood is one way to support your wellbeing. It's <span style="color: #0faeb0">okay</span> to feel angry or sad, just as it is <span style="color: #0faeb0">okay</span> to feel happy or excited. A <span style="color: #0faeb0">mood check-in</span> is a time for you to notice how you are feeling and record it or let others know about it. 
 </p>
 
 You will:
@@ -14,18 +14,18 @@ You will:
 To complete this project you will need:
 
 + A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ RGB LED(s) or single colour LED(s)
++ A data USB A to micro-USB cable
++ RGB LED(s) or single-colour LED(s)
 + A potentiometer or buttons (bought or crafted)
 + Jumper wires
 + Resistors
-+ Craft materials including card, sticky tape and kitchen foil
++ Craft materials including card, sticky tape, and kitchen foil
 
 --- task ---
 
 **Look:** Take a look at this mood check-in device. How does it use colour to communicate a mood? How do you change the colour displayed? 
 
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
+![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside, which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
 
 --- collapse ---
 ---
@@ -42,19 +42,19 @@ line_highlights:
 from picozero import RGBLED, Switch
 from time import sleep
 
-rgb = RGBLED(red=1, green=2, blue=3) # pin numbers
+rgb = RGBLED(red=1, green=2, blue=3) # Pin numbers
 switch = Switch(18)
 
 option = 0
 
 def calm():
-    rgb.color = (255, 255, 0) # yellow
+    rgb.color = (255, 255, 0) # Yellow
 
 def focused():
-    rgb.color = (0, 215, 0) # orange
+    rgb.color = (0, 215, 0) # Orange
     
 def energised():
-    rgb.color = (63, 204, 208) # green
+    rgb.color = (63, 204, 208) # Green
 
 def choice():
     global option
@@ -87,7 +87,7 @@ switch.when_closed = choice
 Explore these examples to get more ideas.
 
 **Drop switch**
-Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, they close different switches and set the light colour to match the mood. The tokens show a sad, happy or angry mood. 
+Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, they close different switches and set the light colour to match the mood. The tokens show a sad, happy, or angry mood. 
 
 ![A silver token is dropped into a box and a red light displays.](images/drop-switch.gif)
 
@@ -107,22 +107,22 @@ from time import sleep
 from picozero import Button, RGBLED
 
 
-happy = Button(13) # longest token
-angry = Button(14) # medium token
-sad = Button(15) # shortest token
+happy = Button(13) # Longest token
+angry = Button(14) # Medium token
+sad = Button(15) # Shortest token
 led = RGBLED(18, 17, 16)
 
 
-while True: # create a loop which checks for the different token
-    if happy.is_pressed: # look for the longest token first
+while True: # Create a loop that checks for the different tokens
+    if happy.is_pressed: # Look for the longest token first
         print('happy!')
-        led.color = (255,255,0) # yellow
-    elif angry.is_pressed: # check for the medium token next
+        led.color = (255,255,0) # Yellow
+    elif angry.is_pressed: # Check for the medium token next
         print('ANGRY!')
-        led.color = (255,0,0) # red
-    elif sad.is_pressed: # check for the shortest token last
+        led.color = (255,0,0) # Red
+    elif sad.is_pressed: # Check for the shortest token last
         print('sad and blue...')
-        led.color = (0,125,255) # blue
+        led.color = (0,125,255) # Blue
 
 --- /code ---
 
@@ -131,7 +131,7 @@ while True: # create a loop which checks for the different token
 **Mood dial**
 A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood.
 
-![A potentiometer is turned and an LED behind some paper and a face changes colour.](images/mood-dial.gif)
+![A potentiometer is turned and an LED behind some paper changes colour, illuminating a paper face in the choosen colour.](images/mood-dial.gif)
 
 --- collapse ---
 ---
@@ -153,19 +153,19 @@ rgb = RGBLED(red=1, green=2, blue=3)
 dial = Pot(0)
 
 def happy():
-    rgb.color = (0, 255, 0) # green
+    rgb.color = (0, 255, 0) # Green
     
 def good():
-    rgb.color = (75, 255, 0) # yellow-green
+    rgb.color = (75, 255, 0) # Yellow-green
 
 def okay():
-    rgb.color = (255, 150, 0) # yellow
+    rgb.color = (255, 150, 0) # Yellow
     
 def unsure():
-    rgb.color = (255, 25, 0) # orange
+    rgb.color = (255, 25, 0) # Orange
 
 def unhappy():
-    rgb.color = (255, 0, 0) # red
+    rgb.color = (255, 0, 0) # Red
     
 
 while True:
@@ -189,9 +189,9 @@ while True:
 --- /collapse ---
 
 **Focus indicator**
-Three buttons and three single colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work and the 'smiley face' emoji means that they are happily working. 
+Three buttons and three single-colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work, and the 'smiley face' emoji means that they are happily working. 
 
-![A box with three emojis on the front. One is a stop sign, one is a hands up and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
+![A box with three emojis on the front. One is a stop sign, one is a hands up, and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
 
 --- collapse ---
 ---
@@ -217,9 +217,9 @@ speaker = Speaker(1)
 choose = Button(18)
 confirm = Button(22)
 
-option = 0 # store the current option
+option = 0 # Store the current option
 
-def choice(): # call the next function and update the option
+def choice(): # Call the next function and update the option
     global option
     if option == 0:
         eat.on()
@@ -265,15 +265,15 @@ Explore these examples to get more ideas.
 
 **Mood lamp**
 A single button is used with a single RGB LED to create a mood lamp using a paper cup and some tracing paper. Each time the button is pressed, the colour changes. 
-![desc](images/mood-lamp.PNG)
+![A single RGB LED used to create a mood lamp using a paper cup and some tracing paper.](images/mood-lamp.PNG)
 
 **Mood dial**
 A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood.
-![desc](images/mood-dial.PNG)
+![A potentiometer is used with a single RGB LED to create a mood dial.](images/mood-dial.PNG)
 
 **Focus indicator**
 Three buttons and three single colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work and the 'smiley face' emoji means that they are happily working. 
-![desc](images/dnd-indicator.PNG)
+![Three buttons and three single colour LEDs are used to show what support someone needs.](images/dnd-indicator.PNG)
 
 --- /print-only ---
 

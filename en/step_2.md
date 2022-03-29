@@ -5,7 +5,7 @@
 How will your mood check-in device show different moods? How will the user select their mood? 
 </div>
 <div>
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
+![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside, which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
 </div>
 </div>
 
@@ -14,7 +14,7 @@ How will your mood check-in device show different moods? How will the user selec
 **Choose:** Who is your mood check-in device for and how will it be used?
 
 It could be: 
-+ For you to communicate your mood with important adults, friends or in a club
++ For you to communicate your mood with important adults, friends, or in a club
 + For you to reflect on your own mood and record it for yourself 
 + To help someone who finds communication difficult 
 
@@ -25,16 +25,16 @@ It could be:
 **Choose:** What moods will your mood check-in device display?
 
 You could use:
-+ Communicate your mood: Happy, sad, angry
-+ Set the mood: Calm, focused, energised
++ Communicate your mood: happy, sad, angry
++ Set the mood: calm, focused, energised
 + In a club session: I'm stuck, do not disturb, all good 
-+ Starting something new: Apprehensive, excited, distracted
++ Starting something new: apprehensive, excited, distracted
 
 --- /task ---
 
 --- task ---
 
-**Choose:** How will your device communicate mood use light patterns?
+**Choose:** How will your device communicate mood using light patterns?
 
 --- collapse ---
 
@@ -42,22 +42,22 @@ You could use:
 title: Do particular colours have a meaning to you?
 ---
 
-+ Red is a popular color in Chinese culture, symbolizing luck, joy, and happiness.
-+ In theatre, wearing the colour green on stage can be seen as unlucky.
-+ Depending on the culture, yellow, orange or red could represent happiness.  
-+ Brighter colours are associated with excitement. 
-+ Blue and green have been associated with calmness and relaxation.
++ Red is a popular color in Chinese culture, symbolising luck, joy, and happiness
++ In theatre, wearing the colour green on stage can be seen as unlucky
++ Depending on the culture, yellow, orange, or red could represent happiness  
++ Brighter colours are associated with excitement 
++ Blue and green have been associated with calmness and relaxation
 
 --- /collapse ---
 
 You could use: 
-+ Different colours: will you use colours associated with the moods? Red for anger or love, blue for calm or sadness 
++ Different colours. Will you use colours associated with the moods? For example, red for anger or love, blue for calm or sadness. 
 
 You could make notes or draw a sketch of your plan. 
 
 --- /task ---
 
-The Raspberry Pi Pico has eight **GND** pins so when you are using jumper wires, you can only have eight components. There is only one **3V** pin so you can only use one potentiometer. There is also a limit to how much current the Raspberry Pi Pico can supply, we recommend a maximum of 2 RGB LEDs or 6 single-colour LEDs. 
+The Raspberry Pi Pico has eight **GND** pins, so when you are using jumper wires, you can only have eight components. There is only one **3V** pin so you can only use one potentiometer. There is also a limit to how much current the Raspberry Pi Pico can supply, we recommend a maximum of two RGB LEDs or six single-colour LEDs. 
 
 Suggested combinations of input and outputs are:
 + 3 buttons and 3 single-colour LEDs
