@@ -65,6 +65,8 @@ def worried(): # Your second mood
 
 --- /collapse ---
 
+**Tip:** `blink`, `pulse` and `cycle` set a light pattern running that can be interrupted. You will be able to press a button again straight away so you can change between lighting effects using a single button.  
+
 --- collapse ---
 
 ---
