@@ -44,19 +44,19 @@ success()
 - ( ) The light will go on
 
   --- feedback ---
-Try again - read through the code and look for where the `button` appears. What does it do?
+Try again. Read through the code and look for where the `button` appears. What does it do?
   --- /feedback ---
 
 - ( ) The light will go off
 
   --- feedback ---
-Try again - read through the code and look for where the `button` appears. What does it do?
+Try again. Read through the code and look for where the `button` appears. What does it do?
   --- /feedback ---
 
 - ( ) The light will go on and off again
 
   --- feedback ---
-Try again - the code *does* make the light go on and off, but read through it carefully and look for where the `button` appears. What does it do?
+Try again. The code *does* make the light go on and off, but read through it carefully and look for where the `button` appears. What does it do?
   --- /feedback ---
 
 --- /choices ---
