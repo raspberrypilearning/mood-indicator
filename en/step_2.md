@@ -42,7 +42,7 @@ You could use:
 title: Do particular colours have a meaning to you?
 ---
 
-+ Red is a popular color in Chinese culture, symbolising luck, joy, and happiness
++ Red is a popular colour in Chinese culture, symbolising luck, joy, and happiness
 + In theatre, wearing the colour green on stage can be seen as unlucky
 + Depending on the culture, yellow, orange, or red could represent happiness  
 + Brighter colours are associated with excitement 
