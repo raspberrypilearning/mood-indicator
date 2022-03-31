@@ -8,13 +8,13 @@ Paying attention to your present mood is one way to support your wellbeing. It's
 
 You will:
 + **Represent** moods or emotions using colourful lights
-+ Develop input controls for your device to allow the user to **check-in** their mood
++ Develop input controls for your device to allow the user to **check-in** with their mood
 + Code LED(s) to create **light effects** based on different moods
 
 To complete this project you will need:
 
 + A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro-USB cable
++ A data USB A to micro USB cable
 + RGB LED(s) or single-colour LED(s)
 + A potentiometer or buttons (bought or crafted)
 + Jumper wires
@@ -272,8 +272,8 @@ A potentiometer is used with a single RGB LED to create a mood dial. The user ca
 ![A potentiometer is used with a single RGB LED to create a mood dial.](images/mood-dial.PNG)
 
 **Focus indicator**
-Three buttons and three single colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work and the 'smiley face' emoji means that they are happily working. 
-![Three buttons and three single colour LEDs are used to show what support someone needs.](images/dnd-indicator.PNG)
+Three buttons and three single-colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work, and the 'smiley face' emoji means that they are happily working. 
+![Three buttons and three single-colour LEDs are used to show what support someone needs.](images/dnd-indicator.PNG)
 
 --- /print-only ---
 
