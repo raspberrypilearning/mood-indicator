@@ -2,16 +2,16 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make the physical parts of your new mood indicator.
+Make the physical parts of your mood indicator.
 </div>
 <div>
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
+![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside, which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Think:** Some questions to consider in the design of the casing and interface for your mood indicator: 
+**Think:** Some questions to consider in the design of the casing and interface for your mood indicator are: 
 
 + What materials will you use? What do you have available?
 + What kind of switches will you make? How will they operate? (If you used them)
@@ -51,7 +51,7 @@ You could use:
 
 **Make** the casing and interface parts for your mood indicator.
 
-Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start!
+Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start.
 
 [[[mount-components]]] 
 

@@ -8,13 +8,13 @@ Paying attention to your present mood is one way to support your wellbeing. It's
 
 You will:
 + **Represent** moods or emotions using colourful lights
-+ Develop input controls for your device to allow the user to **check-in** their mood
++ Develop input controls for your device to allow the user to **check-in** with their mood
 + Code LED(s) to create **light effects** based on different moods
 
 To complete this project you will need:
 
 + A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro-USB cable
++ A data USB A to micro USB cable
 + RGB LED(s) or single-colour LED(s)
 + A potentiometer or buttons (bought or crafted)
 + Jumper wires
@@ -191,7 +191,7 @@ while True:
 **Focus indicator**
 Three buttons and three single-colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work, and the 'smiley face' emoji means that they are happily working. 
 
-![A box with three emojis on the front. One is a stop sign, one is a hands up, and the other is an OK sign. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
+![A box with three emojis on the front. One is a shh emoji, one is a confused emoji, and the other is a smiley face. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
 
 --- collapse ---
 ---
@@ -222,21 +222,21 @@ option = 0 # Store the current option
 def choice(): # Call the next function and update the option
     global option
     if option == 0:
-        eat.on()
-        drink.off()
-        play.off()
+        shh.on()
+        confused.off()
+        smile.off()
     elif option == 1:
-        eat.off()
-        drink.on()
-        play.off()    
+        shh.off()
+        confused.on()
+        smile.off()    
     elif option == 2:
-        eat.off()
-        drink.off()
-        play.on()   
+        shh.off()
+        confused.off()
+        smile.on()   
     elif option == 3:
-        eat.off()
-        drink.off()
-        play.off()
+        shh.off()
+        confused.off()
+        smile.off()
 
     if option == 3:
         option = 0
@@ -272,8 +272,8 @@ A potentiometer is used with a single RGB LED to create a mood dial. The user ca
 ![A potentiometer is used with a single RGB LED to create a mood dial.](images/mood-dial.PNG)
 
 **Focus indicator**
-Three buttons and three single colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work and the 'smiley face' emoji means that they are happily working. 
-![Three buttons and three single colour LEDs are used to show what support someone needs.](images/dnd-indicator.PNG)
+Three buttons and three single-colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work, and the 'smiley face' emoji means that they are happily working. 
+![Three buttons and three single-colour LEDs are used to show what support someone needs.](images/dnd-indicator.PNG)
 
 --- /print-only ---
 
