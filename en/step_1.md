@@ -15,7 +15,7 @@ To complete this project you will need:
 
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
-+ RGB LED(s) or single-colour LED(s)
++ Common cathode RGB LED(s) or single-colour LED(s)
 + A potentiometer or buttons (bought or crafted)
 + Jumper wires
 + Resistors
