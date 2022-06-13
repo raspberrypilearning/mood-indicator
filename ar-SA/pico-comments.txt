@@ -1,0 +1,67 @@
+Pin numbers
+
+Yellow
+
+Orange
+
+Green
+
+Longest token
+
+Medium token
+
+Shortest token
+
+Create a loop that checks for the different tokens
+
+Look for the longest token first
+
+Check for the medium token next
+
+Red
+
+Check for the shortest token last
+
+Blue
+
+Yellow-green
+
+Store the current option
+
+Call the next function and update the option
+
+Your first mood
+
+Turn on
+
+Turn off
+
+Your second mood
+
+First mood
+
+Turn off the red LED
+
+Turn off the green LED
+
+Your first colour
+
+Your second colour
+
+Red for 1 second, green for 1 second, blue for 1 second
+
+Slow pulse
+
+Change this line to try each of your functions
+
+Store the current option
+
+Call the next function and update the option
+
+Your third mood
+
+Move to the next option
+
+Call the choice function when the button is pressed
+
+Loop to call a function based on the dial position
