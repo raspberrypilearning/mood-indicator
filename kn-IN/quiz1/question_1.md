@@ -46,7 +46,11 @@ Why would you choose to use an RGB LED in this project instead of multiple singl
 
 - (x) All of the above.
 
-  --- feedback --- Yes! All of these are good reasons to use an RGB LED instead of multiple single-colour LEDs. Because you are working with limited ground pins and only need to show one colour at a time, using a single RGB LED allows you to display many different colours on a single ground pin. --- /feedback ---
+  --- feedback ---
+
+Yes! All of these are good reasons to use an RGB LED instead of multiple single-colour LEDs. Because you are working with limited ground pins and only need to show one colour at a time, using a single RGB LED allows you to display many different colours on a single ground pin.
+
+  --- /feedback ---
 
 --- /choices ---
 
