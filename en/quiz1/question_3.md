@@ -17,20 +17,25 @@ How many GND (ground) pins would you need on the Pico to connect the following c
 
 
   --- feedback ---
+  
 Try again. Have a look at how many components there are, and consider how many GND pins each requires to operate.
+
   --- /feedback ---
 
 - ( ) 4
 
 
   --- feedback ---
+  
 Try again. Have a look at how many components there are, and consider how many GND pins each requires to operate.
+
   --- /feedback ---
 
 - (x) 5
 
 
   --- feedback ---
+  
 Yes! Each component requires a single GND pin to operate, and there are five components.
 
 This is important when you are using the Raspberry Pi Pico with jumper wires. In the future, you will learn how to connect multiple components to the same GND pin.
@@ -41,7 +46,9 @@ This is important when you are using the Raspberry Pi Pico with jumper wires. In
 
 
   --- feedback ---
+  
 Try again. Have a look at how many components there are, and consider how many GND pins each requires to operate.
+
   --- /feedback ---
 
 --- /choices ---
