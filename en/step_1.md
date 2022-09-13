@@ -21,7 +21,7 @@ If you already have a Raspberry Pi Pico, you can purchase the electronic compone
 
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
-+ Common cathode RGB LED(s) or single-colour LED(s)
++ **Common cathode** RGB LED(s) or single-colour LED(s)
 + A potentiometer or buttons (bought or crafted)
 + Jumper wires
 + Resistors
