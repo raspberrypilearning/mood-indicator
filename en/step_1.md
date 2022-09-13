@@ -167,22 +167,22 @@ dial = Pot(0)
 
 def happy():
     rgb.color = (0, 255, 0) # Green
-    
+
 def good():
     rgb.color = (75, 255, 0) # Yellow-green
 
 def okay():
     rgb.color = (255, 150, 0) # Yellow
-    
+
 def unsure():
     rgb.color = (255, 25, 0) # Orange
 
 def unhappy():
     rgb.color = (255, 0, 0) # Red
-    
+
 
 while True:
-    mood = dial.percent
+    mood = dial.value * 100 # turning to a percentage
     print(mood)
     if mood < 20:
         happy()
@@ -190,7 +190,7 @@ while True:
         good()
     elif mood < 60:
         okay()
-    elif mood< 80:
+    elif mood < 80:
         unsure()
     else:
         unhappy()
