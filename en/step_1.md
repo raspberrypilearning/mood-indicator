@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Create a mood check-in device with coloured lights to emote your current mood. 
 
@@ -95,7 +95,7 @@ switch.when_closed = choice
 
 --- no-print ---
 
-## Get inspiration
+## Get ideas 💭
 
 Explore these examples to get more ideas.
 
@@ -272,7 +272,7 @@ confirm.when_pressed = sound_buzzer
 
 --- print-only ---
 
-## Get inspiration
+## Get ideas 💭
 
 Explore these examples to get more ideas.
 
