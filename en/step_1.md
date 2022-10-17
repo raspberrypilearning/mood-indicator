@@ -34,6 +34,10 @@ If you already have a Raspberry Pi Pico, you can purchase the electronic compone
 
 [[[change-theme-thonny]]]
 
++ picozero - you will need to set up picozero on your Raspberry Pi Pico
+
+[[[set-up-picozero]]]
+
 --- task ---
 
 **Look:** Take a look at this mood check-in device. How does it use colour to communicate a mood? How do you change the colour displayed? 
