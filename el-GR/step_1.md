@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Create a mood check-in device with coloured lights to emote your current mood.
 
@@ -17,9 +17,11 @@ To complete this project you will need:
 
 You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
-+ Common cathode RGB LED(s) or single-colour LED(s)
++ **Common cathode** RGB LED(s) or single-colour LED(s)
 + A potentiometer or buttons (bought or crafted)
 + Jumper wires
 + Resistors
@@ -31,6 +33,10 @@ You can purchase all the required hardware for this project and the other projec
 [[[thonny-install]]]
 
 [[[change-theme-thonny]]]
+
++ picozero - you will need to set up picozero on your Raspberry Pi Pico
+
+[[[set-up-picozero]]]
 
 --- task ---
 
@@ -76,7 +82,7 @@ switch.when_closed = choice --- /code ---
 
 --- no-print ---
 
-## Get inspiration
+## Get ideas 💭
 
 Explore these examples to get more ideas.
 
@@ -134,7 +140,7 @@ def unsure(): rgb.color = (255, 25, 0) # Orange
 def unhappy(): rgb.color = (255, 0, 0) # Red
 
 
-while True: mood = dial.percent print(mood) if mood < 20: happy() elif mood < 40: good() elif mood < 60: okay() elif mood< 80: unsure() else: unhappy() sleep(0.1)
+while True: mood = dial.value * 100 # turning to a percentage print(mood) if mood < 20: happy() elif mood < 40: good() elif mood < 60: okay() elif mood < 80: unsure() else: unhappy() sleep(0.1)
 
 --- /code ---
 
@@ -184,7 +190,7 @@ choose.when_pressed = choice confirm.when_pressed = sound_buzzer --- /code ---
 
 --- print-only ---
 
-## Get inspiration
+## Get ideas 💭
 
 Explore these examples to get more ideas.
 
