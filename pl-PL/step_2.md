@@ -61,9 +61,9 @@ The Raspberry Pi Pico has eight **GND** pins, so when you are using jumper wires
 
 Suggested combinations of input and outputs are:
 + 3 buttons and 3 single-colour LEDs
-+ 1 potentiometer and 1 RGB LED
-+ 1 button and 1 RGB LED
-+ 4 buttons and 1 RGB LED
++ 1 potentiometer and 1 **common cathode** RGB LED
++ 1 button and 1 **common cathode** RGB LED
++ 4 buttons and 1 **common cathode** RGB LED
 
 --- task ---
 
