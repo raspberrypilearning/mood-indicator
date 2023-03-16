@@ -1,52 +1,52 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click on **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-You're making a project where you want to use at least six different colours, but only one colour at a time.
+Je maakt een project waarbij je minstens zes verschillende kleuren wilt gebruiken, maar slechts één kleur tegelijk.
 
-Why would you choose to use an RGB LED in this project instead of multiple single-colour LEDs?
+Waarom zou je ervoor kiezen om een RGB LED in dit project te gebruiken in plaats van meerdere LED's met één kleur?
 
 --- choices ---
 
-- ( ) It uses less ground pins, which are limited on the Pico.
+- ( ) er worden minder aardingspinnen gebruikt, die op de Pico beperkt zijn.
 
   --- feedback ---
 
-  This is an advantage of using an RGB LED when you are working with jumper wires and only have a limited number of GND pins, but it's not the only reason.
+  Dit is een voordeel van het gebruik van een RGB LED wanneer je met jumperdraden werkt en slechts een beperkt aantal GND-pinnen hebt, maar het is niet de enige reden.
 
   --- /feedback ---
 
-- ( ) You only need to show one colour at a time.
+- ( ) je hoeft slechts één kleur tegelijk te tonen.
 
   --- feedback ---
 
-  RGB LEDs are definitely useful in situations where you only need to show one colour at a time and only need that colour in one place (single-colour LEDs are better for showing multiple colours at the same time or having lights in multiple positions). This isn't the only reason.
+  RGB-LED's zijn zeker handig in situaties waarin je slechts één kleur tegelijk hoeft te laten zien en die kleur alleen op één plek nodig hebt (LED's met één kleur zijn beter om meerdere kleuren tegelijkertijd te laten zien of lampen op meerdere posities te hebben). Dit is niet de enige reden.
 
   --- /feedback ---
 
-- ( ) It allows you to display many different colours.
+- ( ) hiermee kun je veel verschillende kleuren weergeven.
 
   --- feedback ---
 
-  RGB LEDs can display a huge number of different colours by adjusting the amount of red, blue, and green so they are really useful when you need to be able to show lots of different colours, or colours that aren't easily available in single-colour LEDs. This isn't the only reason.
+  RGB-LED's kunnen een enorm aantal verschillende kleuren weergeven door de hoeveelheid rood, blauw en groen aan te passen, zodat ze echt handig zijn als je veel verschillende kleuren wilt kunnen weergeven, of kleuren die niet gemakkelijk beschikbaar zijn in LED's met één kleur. Dit is niet de enige reden.
 
   --- /feedback ---
 
-- (x) All of the above.
+- (X) Alle bovenstaande antwoorden.
 
   --- feedback ---
 
-Yes! All of these are good reasons to use an RGB LED instead of multiple single-colour LEDs. Because you are working with limited ground pins and only need to show one colour at a time, using a single RGB LED allows you to display many different colours on a single ground pin.
+Ja! Dit zijn allemaal goede redenen om een RGB LED te gebruiken in plaats van meerdere LED's met één kleur. Omdat je met beperkte aardingspinnen werkt en slechts één kleur tegelijk hoeft te tonen, kun je met een enkele RGB LED veel verschillende kleuren op een enkele aardingspin weergeven.
 
   --- /feedback ---
 
