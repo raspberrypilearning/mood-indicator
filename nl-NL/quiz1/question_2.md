@@ -33,7 +33,7 @@ gelukt()
 
 --- choices ---
 
-- (X) er zal niets gebeuren
+- (x) er zal niets gebeuren
 
   --- feedback ---
 
