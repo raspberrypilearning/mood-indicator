@@ -1,26 +1,26 @@
-## Upgrade your project
+## Améliorer ton projet
 
-If you have time, you can upgrade your project.
+Si tu as le temps, tu peux perfectionner ton projet.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Look out for devices and gadgets that use lights to display a mood. Now you know the skills that are involved in designing and coding such a device, are there features that you would like to add to or ways you would like to improve your mood indicator?
+Recherche des appareils et des gadgets qui utilisent des lumières pour afficher une humeur. Maintenant que tu connais les compétences nécessaires à la conception et au codage d'un tel dispositif, y a-t-il des fonctionnalités que tu aimerais ajouter ou des moyens d'améliorer ton indicateur d'humeur ?
 </p>
 
 --- task ---
 
-**Test:** How could you use your mood indicator? Try using it in a real situation and get feedback from users and then upgrade your project.
+**Test :** Comment pourrais-tu utiliser ton indicateur d'humeur? Essaye de l'utiliser dans une situation réelle et observe les réactions des utilisateurs, puis fais évoluer ton projet.
 
 --- /task ---
 
 --- task ---
 
-You can 'look inside' each of the examples in the [Introduction](.) to see the how the code works and get more inspiration.
+Tu peux 'regarder à l'intérieur' de chacun des exemples de l'[Introduction](.) pour voir le fonctionnement du code et obtenir plus d'inspiration.
 
 --- /task ---
 
 --- task ---
 
-Develop your blink, pulse, and cycle mood patterns. You could add more timing, repeat, and colour settings:
+Développe tes motifs d'humeur de clignotement, d'impulsion et de cycle. Tu pourrais ajouter d'autres paramètres de synchronisation, de répétition et de couleur :
 
 \[[[pico-led-blink-pulse]]\] \[[[pico-rgb-led-blink-pulse-cycle\]]]
 
@@ -28,7 +28,7 @@ Develop your blink, pulse, and cycle mood patterns. You could add more timing, r
 
 --- task ---
 
-If you come across a situation in the future where you want to communicate or create a mood, then you could adapt your project.
+Si tu rencontres à l'avenir une situation dans laquelle tu souhaites communiquer ou créer une ambiance, tu pourras alors adapter ton projet.
 
 --- /task ---
 
@@ -36,20 +36,20 @@ If you come across a situation in the future where you want to communicate or cr
 
 <video width="640" height="360" controls>
 <source src="images/mood-upgrade.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
-Here are some other ideas you could try:
-+ Do some testing with your audience then improve usability
-+ Add more moods, colours, and lights
-+ Continue to craft your device to improve the structure or design
-+ Add sound to your device using a buzzer
+Voici quelques idées que tu pourrais essayer :
++ Fais des tests avec ton public, puis améliore la convivialité
++ Ajoute plus d'humeurs, de couleurs et de lumières
++ Continue à fabriquer ton appareil pour en améliorer la structure ou la conception
++ Ajoute du son à ton appareil en utilisant un buzzer
 
 --- /task ---
 
 --- task ---
 
-Take a look at our [Mood indicator device - Community](https://wke.lt/w/s/kTSkEC){:target="_blank"} gallery to see projects created by our community members.
+Jette un œil à notre galerie [Communauté - Indicateur d'humeur](https://wke.lt/w/s/kTSkEC){:target="_blank"} pour voir les projets créés par les membres de notre communauté.
 
 --- /task ---
 
