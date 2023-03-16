@@ -9,17 +9,25 @@ Je probeert een LED te laten knipperen. Als je naar deze code kijkt, wat gebeurt
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 1
-line_highlights:
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 
 ---
 
-from picozero import LED, Button from time import sleep
+from picozero import LED, Button
+from time import sleep
 
-green = LED(13) button = Button(18)
+groen = LED(13)
+drukknop = Button(18)
 
-def success(): green.on() sleep(1) green.off()
+def gelukt():
+  groen.on()
+  sleep(1)
+  groen.off()
 
-success()
+gelukt()
 
 --- /code ---
 
@@ -29,7 +37,7 @@ success()
 
   --- feedback ---
 
-  Dat klopt! De code maakt een `knop` variabele, maar er is geen code om iets te doen wanneer de knop wordt ingedrukt. Je zou kunnen toevoegen`button.when_pressed = success`.
+  Dat klopt! De code maakt een `drukknop` variabele, maar er is geen code om iets te doen wanneer de knop wordt ingedrukt. Je zou kunnen toevoegen `drukknop.when_pressed = gelukt`.
 
   --- /feedback ---
 
@@ -37,7 +45,7 @@ success()
 
   --- feedback ---
 
-Probeer het nog eens. Lees de code door en kijk waar de `knop` verschijnt. Wat doet het?
+Probeer het nog eens. Lees de code door en kijk waar de `drukknop` verschijnt. Wat doet het?
 
   --- /feedback ---
 
@@ -45,7 +53,7 @@ Probeer het nog eens. Lees de code door en kijk waar de `knop` verschijnt. Wat d
 
   --- feedback ---
 
-Probeer het nog eens. Lees de code door en kijk waar de `knop` verschijnt. Wat doet het?
+Probeer het nog eens. Lees de code door en kijk waar de `drukknop` verschijnt. Wat doet het?
 
   --- /feedback ---
 
@@ -53,7 +61,7 @@ Probeer het nog eens. Lees de code door en kijk waar de `knop` verschijnt. Wat d
 
   --- feedback ---
 
-Probeer het nog eens. De code *doet* het licht aan en uit laten gaan, maar lees het zorgvuldig door en kijk waar de `knop` verschijnt. Wat doet het?
+Probeer het nog eens. De code *doet* het licht aan en uit laten gaan, maar lees het zorgvuldig door en kijk waar de `drukknop` verschijnt. Wat doet het?
 
   --- /feedback ---
 
