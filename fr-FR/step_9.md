@@ -1,6 +1,6 @@
-## What next?
+## Et ensuite ?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Sound machine](https://projects.raspberrypi.org/en/projects/sound-machine) project. In this project, you will make a sound machine that will play sound effects or music using buttons, switches, or a potentiometer.
+Si tu suis le parcours [Introduction au Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro), tu peux passer au projet [Machine à sons](https://projects.raspberrypi.org/en/projects/sound-machine). Dans ce projet, tu vas réaliser une machine à sons qui jouera des effets sonores ou de la musique à l'aide de boutons, d'interrupteurs ou d'un potentiomètre.
 
 --- print-only ---
 
@@ -12,7 +12,7 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 <video width="640" height="360" controls>
 <source src="images/sound_board.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
 --- /no-print ---
