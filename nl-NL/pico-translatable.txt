@@ -1,54 +1,54 @@
-rgb
+RGB
 
-switch
+schakelaar
 
-option
+optie
 
-calm
+rustig
 
-focused
+gefocust
 
-energised
+energiek
 
-choice
+keuze
 
-happy
+gelukkig
 
-angry
+boos
 
-sad
+verdrietig
 
-led
+LED
 
-happy!
+gelukkig!
 
-ANGRY!
+BOOS!
 
-sad and blue...
+verdrietig...
 
-dial
+instelwiel
 
-good
+goed
 
-okay
+oké
 
-unsure
+onzeker
 
-unhappy
+ongelukkig
 
-mood
+humeur
 
-eat
+eet
 
 drink
 
-play
+speel
 
-speaker
+luidspreker
 
-choose
+kies
 
-confirm
+bevestig
 
 shh
 
@@ -56,28 +56,28 @@ confused
 
 smile
 
-sound_buzzer
+geluid_zoemer
 
-excited
+opgewonden
 
-worried
+bezorgd
 
-available
+beschikbaar
 
-do_not_disturb
+niet storen
 
-energise
+energie geven
 
-neutral
+neutraal
 
-relax
+ontspan
 
-button
+drukknop
 
-happy_button
+gelukkig_knop
 
-sad_button
+verdrietig_knop
 
-angry_button
+boos_knop
 
-success
+gelukt
