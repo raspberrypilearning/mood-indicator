@@ -1,6 +1,6 @@
-## What next?
+## Wat nu?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Sound machine](https://projects.raspberrypi.org/en/projects/sound-machine) project. In this project, you will make a sound machine that will play sound effects or music using buttons, switches, or a potentiometer.
+Als je het [Inleiding tot de Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) pad volgt, kun je naar het [Klankbord](https://projects.raspberrypi.org/en/projects/sound-machine) project gaan. In dit project maak je een klankbord dat geluidseffecten of muziek zal afspelen met knoppen, schakelaars of een potentiometer.
 
 --- print-only ---
 
@@ -12,7 +12,7 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 <video width="640" height="360" controls>
 <source src="images/sound_board.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- /no-print ---
