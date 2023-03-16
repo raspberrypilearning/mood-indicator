@@ -1,0 +1,67 @@
+Pinnummers
+
+Geel
+
+Oranje
+
+Groen
+
+Langste token
+
+Gemiddeld token
+
+Kortste token
+
+Maak een lus die de verschillende tokens controleert
+
+Zoek eerst naar het langste token
+
+Controleer vervolgens of het gemiddelde token wordt weergegeven
+
+Rood
+
+Controleer het kortste token het laatst
+
+Blauw
+
+Geel-groen
+
+Sla de huidige optie op.
+
+Roep de volgende functie op en werk de optie bij
+
+Je eerste stemming
+
+Schakel in
+
+Schakel uit
+
+Je tweede stemming
+
+Eerste stemming
+
+Schakel de rode LED uit
+
+Schakel de groene LED uit
+
+Je eerste kleur
+
+Je tweede kleur
+
+Rood gedurende 1 seconde, groen gedurende 1 seconde, blauw gedurende 1 seconde
+
+Langzame pulse
+
+Wijzig deze regel om elk van je functies uit te proberen
+
+Sla de huidige optie op.
+
+Roep de volgende functie op en werk de optie bij
+
+Je derde stemming
+
+Ga naar de volgende optie
+
+Roep de keuzefunctie op wanneer de knop wordt ingedrukt
+
+Lus om een functie op basis van het instelwiel op te roepen
