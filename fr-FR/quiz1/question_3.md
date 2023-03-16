@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend : Question 3 sur 3
 ---
 
-How many GND (ground) pins would you need on the Pico to connect the following components using jumper wires: 1 x RGB LED 1 x Potentiometer 2 x LEDs 1 x Switch
+De combien de broches GND (masse) auras-tu besoin sur le Pico pour connecter les composants suivants à l'aide de fils de liaison : 1 x LED RVB 1 x Potentiomètre 2 x LED 1 x Commutateur
 
 --- choices ---
 
@@ -14,7 +14,7 @@ How many GND (ground) pins would you need on the Pico to connect the following c
 
   --- feedback ---
 
-Try again. Have a look at how many components there are, and consider how many GND pins each requires to operate.
+Réessaie. Jette un œil au nombre de composants et compte le nombre de broches GND dont chacun a besoin pour fonctionner.
 
   --- /feedback ---
 
@@ -23,7 +23,7 @@ Try again. Have a look at how many components there are, and consider how many G
 
   --- feedback ---
 
-Try again. Have a look at how many components there are, and consider how many GND pins each requires to operate.
+Réessaie. Jette un œil au nombre de composants et compte le nombre de broches GND dont chacun a besoin pour fonctionner.
 
   --- /feedback ---
 
@@ -32,9 +32,9 @@ Try again. Have a look at how many components there are, and consider how many G
 
   --- feedback ---
 
-Yes! Each component requires a single GND pin to operate, and there are five components.
+Oui ! Chaque composant nécessite une seule broche GND pour fonctionner, et il y a cinq composants.
 
-This is important when you are using the Raspberry Pi Pico with jumper wires. In the future, you will learn how to connect multiple components to the same GND pin.
+Ceci est important lorsque tu utilises le Raspberry Pi Pico avec des fils de liaison. À l'avenir, tu apprendras à connecter plusieurs composants à la même broche GND.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ This is important when you are using the Raspberry Pi Pico with jumper wires. In
 
   --- feedback ---
 
-Try again. Have a look at how many components there are, and consider how many GND pins each requires to operate.
+Réessaie. Jette un œil au nombre de composants et compte le nombre de broches GND dont chacun a besoin pour fonctionner.
 
   --- /feedback ---
 
