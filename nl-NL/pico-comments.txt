@@ -1,67 +1,67 @@
-Pin numbers
+Pinnummers
 
-Yellow
+Geel
 
-Orange
+Oranje
 
-Green
+Groen
 
-Longest token
+Langste token
 
-Medium token
+Gemiddeld token
 
-Shortest token
+Kortste token
 
-Create a loop that checks for the different tokens
+Maak een lus die de verschillende tokens controleert
 
-Look for the longest token first
+Zoek eerst naar het langste token
 
-Check for the medium token next
+Controleer vervolgens of het gemiddelde token wordt weergegeven
 
-Red
+Rood
 
-Check for the shortest token last
+Controleer het kortste token het laatst
 
-Blue
+Blauw
 
-Yellow-green
+Geel-groen
 
-Store the current option
+Sla de huidige optie op.
 
-Call the next function and update the option
+Roep de volgende functie op en werk de optie bij
 
-Your first mood
+Je eerste stemming
 
-Turn on
+Schakel in
 
-Turn off
+Schakel uit
 
-Your second mood
+Je tweede stemming
 
-First mood
+Eerste stemming
 
-Turn off the red LED
+Schakel de rode LED uit
 
-Turn off the green LED
+Schakel de groene LED uit
 
-Your first colour
+Je eerste kleur
 
-Your second colour
+Je tweede kleur
 
-Red for 1 second, green for 1 second, blue for 1 second
+Rood gedurende 1 seconde, groen gedurende 1 seconde, blauw gedurende 1 seconde
 
-Slow pulse
+Langzame pulse
 
-Change this line to try each of your functions
+Wijzig deze regel om elk van je functies uit te proberen
 
-Store the current option
+Sla de huidige optie op.
 
-Call the next function and update the option
+Roep de volgende functie op en werk de optie bij
 
-Your third mood
+Je derde stemming
 
-Move to the next option
+Ga naar de volgende optie
 
-Call the choice function when the button is pressed
+Roep de keuzefunctie op wanneer de knop wordt ingedrukt
 
-Loop to call a function based on the dial position
+Lus om een functie op basis van het instelwiel op te roepen
