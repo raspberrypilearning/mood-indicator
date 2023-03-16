@@ -1,28 +1,28 @@
 ---
-title: Mood indicator
+title: Indicateur d'humeur
 hero_image: images/banner.png
-description: Create a mood indicator with coloured lights to emote your current mood
+description: Créer un indicateur d'humeur avec des lumières colorées pour exprimer ton humeur actuelle
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: Ce que tu vas faire
   - 
-    title: Design your mood check-in
+    title: Concevoir ton indicateur d'humeur
   - 
-    title: Code your mood lights
+    title: Coder tes lumières d'humeur
     completion:
       - engaged
   - 
-    title: Change your mood
+    title: Changer ton humeur
   - 
-    title: Craft your device
+    title: Fabriquer ton appareil
     completion:
       - internal
   - 
-    title: Reflection
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,8 +31,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: Share
+    title: Partager
   - 
-    title: What next?
+    title: Et ensuite ?
