@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-You are trying to make an LED blink. Looking at this code, what will happen when you press the button?
+Je probeert een LED te laten knipperen. Als je naar deze code kijkt, wat gebeurt er als je op de knop drukt?
 
 --- code ---
 ---
@@ -25,35 +25,35 @@ success()
 
 --- choices ---
 
-- (x) Nothing will happen
+- (X) er zal niets gebeuren
 
   --- feedback ---
 
-  That's right! The code creates a `button` variable but there's no code to do anything when the button is pressed. You could add `button.when_pressed = success`.
+  Dat klopt! De code maakt een `knop` variabele, maar er is geen code om iets te doen wanneer de knop wordt ingedrukt. Je zou kunnen toevoegen`button.when_pressed = success`.
 
   --- /feedback ---
 
-- ( ) The light will go on
+- ( ) het licht zal gaan branden
 
   --- feedback ---
 
-Try again. Read through the code and look for where the `button` appears. What does it do?
+Probeer het nog eens. Lees de code door en kijk waar de `knop` verschijnt. Wat doet het?
 
   --- /feedback ---
 
-- ( ) The light will go off
+- ( ) het licht gaat uit
 
   --- feedback ---
 
-Try again. Read through the code and look for where the `button` appears. What does it do?
+Probeer het nog eens. Lees de code door en kijk waar de `knop` verschijnt. Wat doet het?
 
   --- /feedback ---
 
-- ( ) The light will go on and off again
+- ( ) het lampje gaat weer aan en uit
 
   --- feedback ---
 
-Try again. The code *does* make the light go on and off, but read through it carefully and look for where the `button` appears. What does it do?
+Probeer het nog eens. De code *doet* het licht aan en uit laten gaan, maar lees het zorgvuldig door en kijk waar de `knop` verschijnt. Wat doet het?
 
   --- /feedback ---
 
