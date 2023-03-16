@@ -1,52 +1,52 @@
-## You will make
+## Wat ga je maken
 
-Create a mood check-in device with coloured lights to emote your current mood.
+Maak een apparaat om je humeur te meten met gekleurde lampjes om je huidige stemming te laten zien.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Paying attention to your present mood is one way to support your wellbeing. It's <span style="color: #0faeb0">okay</span> to feel angry or sad, just as it is <span style="color: #0faeb0">okay</span> to feel happy or excited. A <span style="color: #0faeb0">mood check-in</span> is a time for you to notice how you are feeling and record it or let others know about it. 
+Aandacht besteden aan je huidige stemming is een manier om je welzijn te ondersteunen. Het is <span style="color: #0faeb0">oké</span> om je boos of verdrietig te voelen, net zoals het <span style="color: #0faeb0">oké</span> is om je gelukkig of opgewonden te voelen. Met <span style="color: #0faeb0">humeur meet moment</span> kan je kijken hoe je je voelt en dat vast te leggen of anderen erover te laten weten. 
 </p>
 
-You will:
-+ **Represent** moods or emotions using colourful lights
-+ Develop input controls for your device to allow the user to **check-in** with their mood
-+ Code LED(s) to create **light effects** based on different moods
+Je gaat:
++ Stemmingen of emoties **laten zien** met kleurrijke lichtjes
++ Invoerknoppen ontwikkelen voor je apparaat zodat de gebruiker zijn humeur **kan meten**
++ LED('s) programmeren om **lichteffecten** te maken op basis van verschillende stemmingen
 
-To complete this project you will need:
+Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Je kunt alle hardware die je nodig hebt voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webwinkel.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+Als je al een Raspberry Pi Pico hebt, kun je de elektronische componenten die je nodig hebt voor dit project en de andere projecten in het pad kopen bij [de Kitronik webwinkel.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){: target='_blank
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ **Common cathode** RGB LED(s) or single-colour LED(s)
-+ A potentiometer or buttons (bought or crafted)
-+ Jumper wires
-+ Resistors
-+ Craft materials including card, sticky tape, and kitchen foil
++ Een Raspberry Pi Pico met gesoldeerde pinnen
++ Een data USB A naar micro USB-kabel
++ **gemeenschappelijke kathode** RGB-LED('s) of eenkleurige LED('s)
++ Een potentiometer (instelwiel) of knoppen (gekocht of gemaakt)
++ Verbindingsdraden
++ Weerstanden
++ Knutselmaterialen zoals papier, karton, plakband en folie
 
 **Software:**
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
++ Thonny – dit project kan worden voltooid met de Thonny Python editor, die kan worden geïnstalleerd op een Linux-, Windows- of Mac-computer.
 
 [[[thonny-install]]]
 
 [[[change-theme-thonny]]]
 
-+ picozero - you will need to set up picozero on your Raspberry Pi Pico
++ picozero - je moet picozero instellen op je Raspberry Pi Pico
 
 [[[set-up-picozero]]]
 
 --- task ---
 
-**Look:** Take a look at this mood check-in device. How does it use colour to communicate a mood? How do you change the colour displayed?
+**Bekijk:** Bekijk dit apparaat voor het meten van je humeur. Hoe gebruikt het kleur om een stemming te communiceren? Hoe wijzig je de weergegeven kleur?
 
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside, which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
+![Een stuk overtrekpapier is om een papieren beker gewikkeld. Er zit een RGB-LED in, die het overtrekpapier in verschillende kleuren verlicht, afhankelijk van het aantal keren dat de knop is ingedrukt.](images/mood-lamp.gif)
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -82,17 +82,17 @@ switch.when_closed = choice --- /code ---
 
 --- no-print ---
 
-## Get ideas 💭
+## Ideeën opdoen 💭
 
-Explore these examples to get more ideas.
+Bekijk deze voorbeelden om meer ideeën te krijgen.
 
-**Drop switch** Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, they close different switches and set the light colour to match the mood. The tokens show a sad, happy, or angry mood.
+**Drop switch** verschillende grootte tokens worden in keukenfolie gewikkeld met stemmingen erop geschreven. Wanneer ze in de doos worden geplaatst, sluiten ze verschillende schakelaars en stellen ze de lichtkleur in die past bij de stemming. De tokens laten een droevige, gelukkige of boze stemming zien.
 
-![A silver token is dropped into a box and a red light displays.](images/drop-switch.gif)
+![Er wordt een zilveren token in een doos geplaatst en er wordt een rood licht weergegeven.](images/drop-switch.gif)
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -111,13 +111,13 @@ while True: # Create a loop that checks for the different tokens if happy.is_pre
 
 --- /collapse ---
 
-**Mood dial** A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood.
+**humeurmeter** Een potentiometer (instelwiel) wordt gebruikt met een enkele RGB LED om een humeurmeter te maken. De gebruiker kan het instelwiel draaien om zijn huidige stemming 'te meten'.
 
-![A potentiometer is turned and an LED behind some paper changes colour, illuminating a paper face in the choosen colour.](images/mood-dial.gif)
+![Een potentiometer wordt gedraaid en een LED verandert van kleur, waardoor een vlak in de gekozen kleur wordt verlicht.](images/mood-dial.gif)
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -140,20 +140,20 @@ def unsure(): rgb.color = (255, 25, 0) # Orange
 def unhappy(): rgb.color = (255, 0, 0) # Red
 
 
-while True: mood = dial.value * 100 # turning to a percentage print(mood) if mood < 20: happy() elif mood < 40: good() elif mood < 60: okay() elif mood < 80: unsure() else: unhappy() sleep(0.1)
+while True: humeur = dial.value * 100 # draaien naar een percentage print(humeur) if humeur < 20: happy() elif humeur < 40: goed() elif humeur < 60: okay() elif stemming < 80: onzeker() else: ongelukkig() sleep(0.1)
 
 --- /code ---
 
 
 --- /collapse ---
 
-**Focus indicator** Three buttons and three single-colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work, and the 'smiley face' emoji means that they are happily working.
+**Focus-indicator** drie knoppen en drie eenkleurige LED's worden gebruikt om aan te geven wat iemand nodig heeft in een club. De 'Shh'-emoji betekent niet storen, de 'verwarde' emoji betekent dat ze om hulp vragen met hun werk, en de 'smiley face'-emoji betekent dat ze goed aan het werk zijn en geen hulp nodig hebben.
 
-![A box with three emojis on the front. One is a shh emoji, one is a confused emoji, and the other is a smiley face. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
+![Een doos met drie emoji's aan de voorkant. Het ene is een shh emoji, het andere is een verwarde emoji, en het andere is een smiley-face emoji. Er worden knoppen ernaast ingedrukt, die een bijbehorende LED laten branden.](images/dnd-indicator.gif)
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -190,15 +190,15 @@ choose.when_pressed = choice confirm.when_pressed = sound_buzzer --- /code ---
 
 --- print-only ---
 
-## Get ideas 💭
+## Ideeën opdoen 💭
 
-Explore these examples to get more ideas.
+Bekijk deze voorbeelden om meer ideeën te krijgen.
 
-**Mood lamp** A single button is used with a single RGB LED to create a mood lamp using a paper cup and some tracing paper. Each time the button is pressed, the colour changes. ![A single RGB LED used to create a mood lamp using a paper cup and some tracing paper.](images/mood-lamp.PNG)
+**sfeerlamp** Een enkele knop wordt gebruikt met een enkele RGB LED om een sfeerlamp te maken met behulp van een papieren beker en wat overtrekpapier. Elke keer dat op de knop wordt gedrukt, verandert de kleur. ![Een enkele RGB LED die wordt gebruikt om een sfeerlamp te maken met behulp van een papieren beker en wat tekenpapier.](images/mood-lamp.PNG)
 
-**Mood dial** A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood. ![A potentiometer is used with a single RGB LED to create a mood dial.](images/mood-dial.PNG)
+**stemmingswijzer** Een potentiometer wordt gebruikt met een enkele RGB LED om een stemmingswijzer te maken. De gebruiker kan het instelwiel draaien om zijn huidige stemming 'in te checken'. ![Een potentiometer wordt gebruikt met een enkele RGB LED om een stemmingswijzer te maken.](images/mood-dial.PNG)
 
-**Focus indicator** Three buttons and three single-colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work, and the 'smiley face' emoji means that they are happily working. ![Three buttons and three single-colour LEDs are used to show what support someone needs.](images/dnd-indicator.PNG)
+**Focus-indicator** drie knoppen en drie eenkleurige LED's worden gebruikt om aan te geven wat iemand nodig heeft in een club. De 'Shh'-emoji betekent niet storen, de 'verwarde' emoji betekent dat ze om hulp vragen met hun werk, en de 'miley face'-emoji betekent dat ze graag werken. ![Er worden drie knoppen en drie eenkleurige LED's gebruikt om aan te geven wat iemand nodig heeft.](images/dnd-indicator.PNG)
 
 --- /print-only ---
 
