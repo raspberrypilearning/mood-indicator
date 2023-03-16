@@ -1,57 +1,57 @@
-## Craft your device
+## Fabriquer ton appareil
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make the physical parts of your mood indicator.
+Fabrique les parties physiques de ton indicateur d'humeur.
 </div>
 <div>
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside, which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
+![Un morceau de papier calque est enroulé autour d'un gobelet en carton. Une LED RVB se trouve à l'intérieur, qui éclaire le papier calque de différentes couleurs en fonction du nombre de fois que le bouton a été enfoncé.](images/mood-lamp.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Think:** Some questions to consider in the design of the casing and interface for your mood indicator are:
+**Réfléchis :** Voici quelques questions à prendre en compte lors de la conception du boîtier et de l'interface de ton indicateur d'humeur :
 
-+ What materials will you use? What do you have available?
-+ What kind of switches will you make? How will they operate? (If you used them)
-+ How will you mount your potentiometer so it is sturdy and easy to reach? (If you used one)
-+ Where will you mount your LEDs for the best effect? Do you need to add any diffusers?
++ Quels matériaux vas-tu utiliser ? Qu'est-ce que tu as de disponible ?
++ Quel genre d'interrupteurs vas-tu faire ? Comment fonctionneront-ils ? (Si tu les as utilisés)
++ Comment vas-tu monter ton potentiomètre pour qu'il soit solide et facile d'accès ? (Si tu en as utilisé un)
++ Où vas-tu monter tes LEDs pour obtenir le meilleur effet ? As-tu besoin d'ajouter des diffuseurs ?
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-In <span style="color: #0faeb0">optics</span> (the study of light and seeing), a <b>diffuser</b> is any material that scatters light in some way. Some LED bulbs are quite directed in their light and so can't be seen very well from a distance, or can be painfully bright to look at from the wrong angle. Using a diffuser can help stop these things from happening and make your light shine in a much more pleasing way. You can make a very simple diffuser just by covering your LED with a thin piece of paper.
+En <span style="color: #0faeb0">optique</span> (l'étude de la lumière et de la vue), un <b>diffuseur</b> est tout matériau qui diffuse la lumière d'une manière ou d'une autre. La lumière de certaines ampoules LED est parfois assez dirigée. Elles ne peuvent donc pas être très bien vues de loin, ou peuvent être douloureusement brillantes à regarder sous le mauvais angle. L'utilisation d'un diffuseur permet d'éviter ces problèmes et de faire briller ta lumière d'une manière beaucoup plus agréable. Tu peux fabriquer un diffuseur très simple en recouvrant simplement ta LED d'un mince morceau de papier.
 </p>
 
-This mood indicator uses a balloon as a diffuser, and different sized conductive tokens to close separate switches and set the mood:
+Cet indicateur d'humeur utilise un ballon comme diffuseur et des jetons conducteurs de différentes tailles pour fermer des interrupteurs séparés et définir l'humeur:
 <video width="640" height="360" controls>
 <source src="images/vibechecker.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
 --- task ---
 
-**Find** the materials you will use to create the physical parts of your mood indicator.
+**Trouve** les matériaux que tu utiliseras pour créer les parties physiques de ton indicateur d'humeur.
 
-You could use:
-+ Cardboard boxes
-+ Recycled plastic items
-+ Old toys
-+ Lego
-+ Duct tape
-+ Hot glue (ask an adult!)
-+ Scissors (ask an adult!)
-+ Craft knife (ask an adult!)
-+ 3D printer (if you're very lucky!)
+Tu pourrais utiliser :
++ Des boîtes en carton
++ Des articles en plastique recyclé
++ D'anciens jouets
++ Des Lego
++ Du ruban adhésif
++ De la colle chaude (demande à un adulte !)
++ Des ciseaux (demande à un adulte !)
++ Un cutter (demande à un adulte !)
++ Une imprimante 3D (si tu es très chanceux !)
 
 --- /task ---
 
 --- task ---
 
-**Make** the casing and interface parts for your mood indicator.
+**Fabrique** le boîtier et les pièces d'interface de ton indicateur d'humeur.
 
-Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start.
+Sois prudent si tu utilises des outils tranchants ou chauds et demande la permission et la surveillance d'un adulte avant de commencer.
 
 [[[mount-components]]]
 
@@ -60,12 +60,12 @@ Be careful if you are using any sharp or hot tools and get adult permission and 
 --- collapse ---
 
 ---
-title: Use tape to hold jumper wires in place
+title: Utiliser du ruban adhésif pour maintenir les fils de raccordement en place
 ---
 
-Use sticky tape or electrical tape to hold jumper wires in place so that your device stays together.
+Utilise du ruban adhésif ou du ruban électrique pour maintenir les fils de liaison en place afin que ton appareil reste solidaire.
 
-You can remove the tape later if you want to reuse the components.
+Tu peux retirer le ruban adhésif plus tard si tu souhaites réutiliser les composants.
 
 --- /collapse ---
 
@@ -75,7 +75,7 @@ You can remove the tape later if you want to reuse the components.
 
 --- task ---
 
-**Embed** your mood check-in components into your casing and **attach** them to your interface.
+**Intègre** tes composants d'indicateur d'humeur dans ton boîtier et **attache-les** à ton interface.
 
 [[[joining-jumper-wires]]]
 
@@ -83,18 +83,18 @@ You can remove the tape later if you want to reuse the components.
 
 --- task ---
 
-**Test:** Run your mood check-in code again and thoroughly test each component. Make sure that your components still work as expected now that they are embedded in your crafted device.
+**Test :** Exécute à nouveau ton code d'indicateur d'humeur et teste minutieusement chaque composant. Assure-toi que tes composants fonctionnent toujours comme prévu maintenant qu'ils sont intégrés dans ton appareil réalisé.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]]
 
-If you find a bug that is not listed here. Can you work out how to fix it?
+Si tu trouves un bogue qui n'est pas répertorié ici. Peux-tu trouver comment le résoudre?
 
-We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
+Nous aimons avoir des nouvelles de tes bogues et de la façon dont tu les as corrigés. Utilise le bouton **Envoyer des commentaires** en bas de cette page et dis-nous si tu as trouvé un bogue différent dans ton projet.
 
 --- /task ---
