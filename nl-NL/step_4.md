@@ -1,43 +1,43 @@
-## Change your mood
+## Verander je humeur
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you need a way for the user to change moods using a button or potentiometer input. 
+Nu heb je een manier nodig voor de gebruiker om van humeur te veranderen met behulp van een knop of potentiometeringang. 
 </div>
 <div>
-![A box with three emojis on the front. One is a stop sign, one is a hands up, and the other is an OK sign. Buttons next to them are pressed, which light the corresponding LED.](images/dnd-indicator.gif){:width="300px"}
+![Een doos met drie emoji's aan de voorkant. Het ene is een stopteken, het andere is een 'handen omhoog'-teken en het andere is een 'OK'-teken. Knoppen ernaast worden ingedrukt, die de bijbehorende LED laten branden.](images/dnd-indicator.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Find** the input components that you want to use for your mood indicator.
+**Zoek** de invoercomponenten die je wilt gebruiken voor je humeurmeter.
 
-You could use:
-+ One button for each mood
-+ A single button to move to the next mood
-+ Two socket–pin jumper wires that you can connect to a crafted button or switch
-+ A potentiometer to select the mood depending on the dial position
+Je zou kunnen gebruiken:
++ Eén knop voor elke stemming
++ Een enkele knop om naar de volgende stemming te gaan
++ Twee bus–pin verbindingsdraden die je kunt aansluiten op een zelfgemaakte knop of schakelaar
++ Een potentiometer om je humeur te selecteren, afhankelijk van de positie van het instelwiel
 
-You will also need two socket–socket jumper wires for each button or three socket–socket wires for a potentiometer.
+Je hebt ook twee verbindingsdraden met stekkerbussen nodig voor elke knop of drie stekkerbussen voor een potentiometer.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Connect your chosen input components to the Raspberry Pi Pico.
+**Kies:** Sluit de gekozen invoercomponenten aan op de Raspberry Pi Pico.
 
 \[[[single-button-wiring]]\] \[[[multiple-button-wiring\]]] \[[[potentiometer-wiring]]\] \[[[crafted-switch-button-wiring\]]] [[[multiple-crafted-switch-button-wiring]]]
 
-**Tip:** If you want to use components you have not used before, or need to wire some more, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide.
+**Tip:** als je onderdelen wilt gebruiken die je nog niet eerder hebt gebruikt, of als je nog meer onderdelen wilt bekabelen, bezoek dan onze [Inleiding tot Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} gids.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Import your chosen input components from the picozero library, then create variables for the connected pins.
+**Kies:** Importeer de gekozen invoercomponenten uit de picozero-bibliotheek en maak vervolgens variabelen aan voor de aangesloten pinnen.
 
-**Tip:** You can combine multiple imports into one line, for example `from picozero import LED, Button`.
+**Tip:** je kunt meerdere imports combineren in één regel, bijvoorbeeld `from picozero import LED, button`.
 
 \[[[single-button-pins]]\] \[[[multiple-button-pins\]]] \[[[single-switch-pins]]\] \[[[multiple-switches-pins\]]] [[[potentiometer-pin]]]
 
@@ -45,17 +45,17 @@ You will also need two socket–socket jumper wires for each button or three soc
 
 --- task ---
 
-**Choose:** Add code to call your mood functions based on your chosen input component.
+**Kies:** Voeg code toe om je humeurfuncties aan te roepen op basis van de invoercomponent die je hebt gekozen.
 
 --- collapse ---
 
 ---
-title: Change to the next mood when a single button is pressed
+Title: Ga naar de volgende stemming wanneer er op een knop wordt gedrukt
 ---
 
-Use an `option` variable to keep track of the current mood so that you can decide which function to call next.
+Gebruik een `optie` variabele om de huidige stemming bij te houden, zodat je kunt beslissen welke functie je daarna wil aanroepen.
 
-Make sure the function names match the mood functions you defined in the previous step.
+Zorg ervoor dat de functienamen overeenkomen met de humeurfuncties die je in de vorige stap hebt gedefinieerd.
 
 --- code ---
 ---
@@ -82,12 +82,12 @@ button.when_pressed = choice # Call the choice function when the button is press
 --- collapse ---
 
 ---
-title: Call a different function when each button is pressed
+Title: Roep een andere functie op wanneer elke knop wordt ingedrukt
 ---
 
-You can have multiple buttons that each call a different function when they are pressed.
+Je kunt meerdere knoppen hebben die elk een andere functie aanroepen wanneer ze worden ingedrukt.
 
-Make sure you use the function names from your project and just use the name of the function, do not call it by adding brackets.
+Zorg ervoor dat je de functienamen van je project gebruikt, zonder haakjes.
 
 --- code ---
 ---
@@ -108,19 +108,19 @@ happy_button.when_pressed = happy sad_button.when_pressed = sad angry_button.whe
 
 --- task ---
 
-**Test:** Run your script and make sure that you can switch between moods.
+**Test:** Voer je script uit en zorg ervoor dat je kunt schakelen tussen stemmingen.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veelvoorkomende fouten.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]]
 
-If you find a bug that is not listed here. Can you work out how to fix it?
+Als je een fout vindt die hier niet wordt vermeld. Kun je erachter komen hoe je het kunt oplossen?
 
-We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
+We horen graag over je fouten en hoe je ze hebt opgelost. Gebruik de **Feedback verzenden** knop onderaan deze pagina en vertel ons of je een andere fout in je project hebt gevonden.
 
 --- /task ---
 
