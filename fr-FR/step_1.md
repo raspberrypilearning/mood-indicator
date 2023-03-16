@@ -1,52 +1,52 @@
-## You will make
+## Ce que tu vas faire
 
-Create a mood check-in device with coloured lights to emote your current mood.
+Créer un dispositif d'enregistrement d'humeur avec des lumières colorées pour exprimer ton humeur actuelle.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Paying attention to your present mood is one way to support your wellbeing. It's <span style="color: #0faeb0">okay</span> to feel angry or sad, just as it is <span style="color: #0faeb0">okay</span> to feel happy or excited. A <span style="color: #0faeb0">mood check-in</span> is a time for you to notice how you are feeling and record it or let others know about it. 
+Prêter attention à ton humeur actuelle est une manière de favoriser ton bien-être. C'est <span style="color: #0faeb0">normal</span> de se sentir en colère ou triste, tout comme il est <span style="color: #0faeb0">normal</span> de se sentir heureux ou excité. Un <span style="color: #0faeb0">enregistrement d'humeur</span> est un moment où tu remarques ce que tu ressens et où tu l'enregistres ou le fais savoir aux autres. 
 </p>
 
-You will:
-+ **Represent** moods or emotions using colourful lights
-+ Develop input controls for your device to allow the user to **check-in** with their mood
-+ Code LED(s) to create **light effects** based on different moods
+Tu vas devoir :
++ **Représenter** des humeurs ou des émotions à l'aide de lumières colorées
++ Développer des contrôles d'entrée pour ton appareil afin de permettre à l'utilisateur **d'enregistrer** son humeur
++ Coder des LED(s) pour créer **des effets de lumière** basés sur différentes humeurs
 
-To complete this project you will need:
+Pour mener à bien ce projet, tu auras besoin de :
 
-**Hardware**
+**Matériel**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Tu peux acheter tout le matériel requis pour ce projet et les autres projets du parcours à partir de la [boutique en ligne Pimoroni.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+Si tu as déjà un Raspberry Pi Pico, tu peux acheter les composants électroniques dont tu as besoin pour ce projet et les autres projets via [La boutique en ligne Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ **Common cathode** RGB LED(s) or single-colour LED(s)
-+ A potentiometer or buttons (bought or crafted)
-+ Jumper wires
-+ Resistors
-+ Craft materials including card, sticky tape, and kitchen foil
++ Un Raspberry Pi Pico avec des broches soudées dessus
++ Un câble de données USB A vers micro USB
++ Des LED(s) RVB **à Cathode commune** ou des LED(s) monochrome(s)
++ Un potentiomètre ou des boutons (achetés ou fabriqués)
++ Fils de liaison
++ Des résistances
++ Matériaux de bricolage, dont carte, ruban adhésif et papier d'aluminium
 
-**Software:**
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
+**Logiciel:**
++ Thonny : ce projet peut être réalisé à l'aide de l'éditeur Thonny Python, qui peut être installé sur un ordinateur Linux, Windows ou Mac.
 
 [[[thonny-install]]]
 
 [[[change-theme-thonny]]]
 
-+ picozero - you will need to set up picozero on your Raspberry Pi Pico
++ picozero - tu devras configurer picozero sur ton Raspberry Pi Pico
 
 [[[set-up-picozero]]]
 
 --- task ---
 
-**Look:** Take a look at this mood check-in device. How does it use colour to communicate a mood? How do you change the colour displayed?
+**Regarde :** Jette un coup d'œil à cet indicateur d'humeur. Comment utilise-t-il les couleurs pour indiquer une humeur ? Comment changes-tu la couleur affichée ?
 
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside, which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif)
+![Un morceau de papier calque est enroulé autour d'un gobelet en carton. Une LED RVB se trouve à l'intérieur, qui éclaire le papier calque de différentes couleurs en fonction du nombre de fois que le bouton a été enfoncé.](images/mood-lamp.gif)
 
 --- collapse ---
 ---
-title: See inside
+title: Voir à l'intérieur
 ---
 --- code ---
 ---
@@ -82,17 +82,17 @@ switch.when_closed = choice --- /code ---
 
 --- no-print ---
 
-## Get ideas 💭
+## Trouve l'inspiration 💭
 
-Explore these examples to get more ideas.
+Explore ces exemples de projets pour obtenir plus d'idées .
 
-**Drop switch** Different sized tokens are wrapped in kitchen foil with moods written on them. When they are placed in the box, they close different switches and set the light colour to match the mood. The tokens show a sad, happy, or angry mood.
+**Interrupteur de chute** Des jetons de différentes tailles sont enveloppés dans du papier d'aluminium avec des humeurs écrites dessus. Lorsqu'ils sont placés dans la boîte, ils ferment différents interrupteurs et règlent la couleur de la lumière en fonction de l'humeur. Les jetons indiquent une humeur triste, heureuse ou en colère.
 
-![A silver token is dropped into a box and a red light displays.](images/drop-switch.gif)
+![Un jeton argenté est déposé dans une boîte et une lumière rouge s'affiche.](images/drop-switch.gif)
 
 --- collapse ---
 ---
-title: See inside
+title: Voir à l'intérieur
 ---
 --- code ---
 ---
@@ -111,13 +111,13 @@ while True: # Create a loop that checks for the different tokens if happy.is_pre
 
 --- /collapse ---
 
-**Mood dial** A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood.
+**Cadran d'humeur** Un potentiomètre est utilisé avec une seule LED RVB pour créer un cadran d'humeur. L'utilisateur peut tourner le cadran pour 'enregistrer' son humeur actuelle.
 
-![A potentiometer is turned and an LED behind some paper changes colour, illuminating a paper face in the choosen colour.](images/mood-dial.gif)
+![On tourne un potentiomètre et une LED située derrière du papier change de couleur, éclairant ainsi une face de papier de la couleur choisie.](images/mood-dial.gif)
 
 --- collapse ---
 ---
-title: See inside
+title: Voir à l'intérieur
 ---
 --- code ---
 ---
@@ -140,20 +140,20 @@ def unsure(): rgb.color = (255, 25, 0) # Orange
 def unhappy(): rgb.color = (255, 0, 0) # Red
 
 
-while True: mood = dial.value * 100 # turning to a percentage print(mood) if mood < 20: happy() elif mood < 40: good() elif mood < 60: okay() elif mood < 80: unsure() else: unhappy() sleep(0.1)
+while True : humeur = cadran.value * 100 # transformer en un pourcentage print(humeur) if humeur < 20 : heureux() elif humeur < 40 : bon() elif humeur < 60 : ok( ) elif humeur < 80 : incertain() else : malheureux() sleep(0.1)
 
 --- /code ---
 
 
 --- /collapse ---
 
-**Focus indicator** Three buttons and three single-colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work, and the 'smiley face' emoji means that they are happily working.
+**Témoin de mise au point** Trois boutons et trois LED monochromes sont utilisés pour indiquer le type d'aide dont une personne a besoin dans un club. L'emoji 'Chut' signifie 'ne pas déranger', l'emoji 'confus' signifie qu'ils demandent de l'aide pour leur travail, et l'emoji 'smiley' signifie qu'ils travaillent avec plaisir.
 
-![A box with three emojis on the front. One is a shh emoji, one is a confused emoji, and the other is a smiley face. Buttons next to them are pressed, which lights a corresponding LED.](images/dnd-indicator.gif)
+![Une boîte avec trois emojis sur le devant. L'un est un emoji chut, l'autre est un emoji confus et l'autre est un visage souriant. Les boutons à côté d'eux sont enfoncés, ce qui allume une LED correspondante.](images/dnd-indicator.gif)
 
 --- collapse ---
 ---
-title: See inside
+title: Voir à l'intérieur
 ---
 --- code ---
 ---
@@ -190,15 +190,15 @@ choose.when_pressed = choice confirm.when_pressed = sound_buzzer --- /code ---
 
 --- print-only ---
 
-## Get ideas 💭
+## Trouve l'inspiration 💭
 
-Explore these examples to get more ideas.
+Explore ces exemples de projets pour obtenir plus d'idées .
 
-**Mood lamp** A single button is used with a single RGB LED to create a mood lamp using a paper cup and some tracing paper. Each time the button is pressed, the colour changes. ![A single RGB LED used to create a mood lamp using a paper cup and some tracing paper.](images/mood-lamp.PNG)
+**Lampe d'humeur** Un seul bouton est utilisé avec une seule LED RVB pour créer une lampe d'ambiance à l'aide d'un gobelet en carton et de papier calque. Chaque fois que l'on appuie sur le bouton, la couleur change. ![Une LED RVB unique est utilisée pour créer une lampe d'ambiance à l'aide d'un gobelet en carton et de papier calque.](images/mood-lamp.PNG)
 
-**Mood dial** A potentiometer is used with a single RGB LED to create a mood dial. The user can turn the dial to 'check-in' their current mood. ![A potentiometer is used with a single RGB LED to create a mood dial.](images/mood-dial.PNG)
+**Cadran d'humeur** Un potentiomètre est utilisé avec une seule LED RVB pour créer un cadran d'humeur. L'utilisateur peut tourner le cadran pour 'enregistrer' son humeur actuelle. ![Un potentiomètre est utilisé avec une seule LED RVB pour créer un cadran d'humeur.](images/mood-dial.PNG)
 
-**Focus indicator** Three buttons and three single-colour LEDs are used to show what support someone needs in a club. The 'Shh' emoji means do not disturb, the 'confused' emoji means that they are asking for help with their work, and the 'smiley face' emoji means that they are happily working. ![Three buttons and three single-colour LEDs are used to show what support someone needs.](images/dnd-indicator.PNG)
+**Témoin de mise au point** Trois boutons et trois LED monochromes sont utilisés pour indiquer le type d'aide dont une personne a besoin dans un club. L'emoji 'Chut' signifie 'ne pas déranger', l'emoji 'confus' signifie qu'ils demandent de l'aide pour leur travail, et l'emoji 'smiley' signifie qu'ils travaillent avec plaisir. ![Trois boutons et trois LED monochromes sont utilisés pour indiquer le type d'assistance dont une personne a besoin.](images/dnd-indicator.PNG)
 
 --- /print-only ---
 
