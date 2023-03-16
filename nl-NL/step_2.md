@@ -1,101 +1,101 @@
-## Design your device
+## Ontwerp je apparaat
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-How will your mood check-in device show different moods? How will the user select their mood? 
+Hoe laat je humeurmeter verschillende stemmingen zien? Hoe kiest de gebruiker zijn of haar stemming? 
 </div>
 <div>
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside, which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
+![Er is een stuk overtrekpapier om een papieren beker gewikkeld. Er zit een RGB-LED in, die het overtrekpapier in verschillende kleuren verlicht, afhankelijk van het aantal keren dat de knop is ingedrukt.](images/mood-lamp.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Choose:** Who is your mood check-in device for and how will it be used?
+**Kies:** voor wie is je humeurmeter en hoe ga je hem gebruiken?
 
-It could be:
-+ For you to communicate your mood with important adults, friends, or in a club
-+ For you to reflect on your own mood and record it for yourself
-+ To help someone who finds communication difficult
-
---- /task ---
-
---- task ---
-
-**Choose:** What moods will your mood check-in device display?
-
-You could use:
-+ Communicate your mood: happy, sad, angry
-+ Set the mood: calm, focused, energised
-+ In a club session: I'm stuck, do not disturb, all good
-+ Starting something new: apprehensive, excited, distracted
+Het kan zijn:
++ Voor jou om je stemming te laten zien aan volwassenen, vrienden of in een club
++ Om na te denken over je humeur en dit op te nemen voor jezelf
++ Om iemand te helpen die communicatie moeilijk vindt
 
 --- /task ---
 
 --- task ---
 
-**Choose:** How will your device communicate mood using light patterns?
+**Kies:** welke stemmingen worden weergegeven op de humeurmeter?
+
+Je zou kunnen gebruiken:
++ Laat je humeur zien: gelukkig, verdrietig, boos
++ Stel de stemming in: kalm, gefocust, energiek
++ In een clubsessie: Ik heb hulp nodig, niet storen, alles oké
++ Beginnen met iets nieuws: angstig, opgewonden, afgeleid
+
+--- /task ---
+
+--- task ---
+
+**Kies:** Hoe communiceert je apparaat stemming met behulp van lichtpatronen?
 
 --- collapse ---
 
 ---
-title: Do particular colours have a meaning to you?
+Title: Hebben bepaalde kleuren een betekenis voor je?
 ---
 
-+ Red is a popular colour in Chinese culture, symbolising luck, joy, and happiness
-+ In theatre, wearing the colour green on stage can be seen as unlucky
-+ Depending on the culture, yellow, orange, or red could represent happiness
-+ Brighter colours are associated with excitement
-+ Blue and green have been associated with calmness and relaxation
++ Rood is een populaire kleur in de Chinese cultuur, die geluk, vreugde en blijheid symboliseert
++ In het theater kan het dragen van de kleur groen op het podium worden gezien als ongelukkig
++ Afhankelijk van de cultuur kan geel, oranje of rood geluk vertegenwoordigen
++ Helderdere kleuren worden geassocieerd met opwinding
++ Blauw en groen worden gebruikt om rust en ontspanning uit te stralen
 
 --- /collapse ---
 
-You could use:
-+ Different colours. Will you use colours associated with the moods? For example, red for anger or love, blue for calm or sadness.
+Je zou kunnen gebruiken:
++ Verschillende kleuren. Ga je kleuren gebruiken die horen bij de stemmingen? Bijvoorbeeld rood voor boosheid of liefde, blauw voor kalmte of verdriet.
 
-You could make notes or draw a sketch of your plan.
-
---- /task ---
-
-The Raspberry Pi Pico has eight **GND** pins, so when you are using jumper wires, you can only have eight components. There is only one **3V** pin so you can only use one potentiometer. There is also a limit to how much current the Raspberry Pi Pico can supply, we recommend a maximum of two RGB LEDs or six single-colour LEDs.
-
-Suggested combinations of input and outputs are:
-+ 3 buttons and 3 single-colour LEDs
-+ 1 potentiometer and 1 **common cathode** RGB LED
-+ 1 button and 1 **common cathode** RGB LED
-+ 4 buttons and 1 **common cathode** RGB LED
-
---- task ---
-
-**Choose:** What LEDs will you use with your device?
-
-You could use:
-+ Different coloured LEDs
-+ One or more RGB LEDs
+Je kunt notities of een tekening maken van je plan.
 
 --- /task ---
 
+De Raspberry Pi Pico heeft acht **GND** pinnen, dus als je verbindingsdraden gebruikt, kun je slechts acht componenten hebben. Er is slechts één **3V** pin, dus je kunt slechts één potentiometer gebruiken. Er is ook een limiet aan de hoeveelheid stroom die de Raspberry Pi Pico kan leveren. We raden maximaal twee RGB-LED's of zes LED's met één kleur aan.
+
+Voorgestelde combinaties van invoer en uitvoer zijn:
++ 3 knoppen en 3 LED's met één kleur
++ 1 potentiometer en 1 **gemeenschappelijke kathode** RGB LED
++ 1 knop en 1 **gemeenschappelijke kathode** RGB LED
++ 4 knoppen en 1 **gemeenschappelijke kathode** RGB LED
+
 --- task ---
 
-**Choose:** What input components will you use for your device?
+**Kies:** welke LED's ga je gebruiken met je apparaat?
 
-You could use:
-+ One or more buttons
-+ A potentiometer
-+ Crafted buttons/switches that make a connection
+Je zou kunnen gebruiken:
++ Verschillende gekleurde LED's
++ Een of meer RGB LED's
 
 --- /task ---
 
 --- task ---
 
-**Design:** What will your mood check-in device look like? How will you attach your inputs and outputs?
+**Kies:** welke invoercomponenten ga je gebruiken voor je apparaat?
 
-You could:
-+ Take inspiration from the designs in the introduction
-+ Embed your components into a soft toy
-+ Turn your components into a wearable
+Je zou kunnen gebruiken:
++ Een of meer knoppen
++ Een potentiometer
++ Zelf gemaakte knoppen/schakelaars die een verbinding maken
 
-**Tip:** You don't need to decide everything now. It's fine to iterate on your design as you start making.
+--- /task ---
+
+--- task ---
+
+**Ontwerp:** Hoe ziet je humeurmeter eruit? Hoe sluit je je in- en uitgangen aan?
+
+Je zou:
++ Je kunnen laten inspireren door de ontwerpen in de inleiding
++ Je onderdelen kunnen verwerken in een stukje zacht speelgoed
++ Van je onderdelen een wearable kunnen maken
+
+**Tip:** je hoeft nu nog niet alles te beslissen. Het is prima om je ontwerp elke keer wat bij te stellen terwijl je het maakt (dat noemen ze ook wel iteratief ontwerpen).
 
 --- /task ---
 
