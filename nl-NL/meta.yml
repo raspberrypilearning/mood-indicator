@@ -1,0 +1,29 @@
+---
+title: Humeurmeter
+hero_image: images/banner.png
+description: Maak een humeurmeter met gekleurde lampjes om je huidige stemming te laten zien
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: Wat ga je maken
+  - title: Ontwerp je humeurmeter
+  - title: Codeer je humeurlichtjes
+    completion:
+      - engaged
+  - title: Verander je humeur
+  - title: Maak je apparaat
+    completion:
+      - internal
+  - title: Snelle quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Verbeter je project
+  - title: Deel
+  - title: Wat kun je verder nog doen?
