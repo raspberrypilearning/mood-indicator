@@ -1,33 +1,33 @@
-## Code your mood lights
+## Coder tes lumières d'humeur
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's good practice to build your project up gradually. In this step, you will connect and code your LEDs to show different moods and test that this is working.
+C'est une bonne pratique de construire ton projet progressivement. Dans cette étape, tu vas connecter et coder tes LEDs pour créer différentes humeurs et tester leur bon fonctionnement.
 </div>
 <div>
-![A potentiometer is turned and an LED behind some paper changes colour. The paper has a face drawn on it.](images/mood-dial.gif){:width="300px"}
+![Un potentiomètre est actionné et une LED derrière du papier change de couleur. Le papier a un visage dessiné dessus.](images/mood-dial.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Prototyping</span> involves making a draft of what you think your final project might achieve. The focus of prototyping is to make a simplified version of the final product quickly, to allow you to test if it is a workable solution to the problem.
+<span style="color: #0faeb0">Le prototypage</span> consiste à faire une ébauche de ce que tu penses que ton projet final pourrait accomplir. L'objectif du prototypage est de créer une version simplifiée du produit final, pour te permettre de tester s'il s'agit d'une solution viable au problème.
 </p>
 
-A prototype that tests the connections and coded design choices will highlight any wiring or coding changes needed before the lights are embedded into a device.
+Un prototype qui teste les connexions et les choix de conception codés mettra en évidence tous les changements de câblage ou de codage nécessaires avant que les lumières ne soient intégrées dans un appareil.
 
 --- task ---
 
-**Choose:** Connect your single-colour LEDs or RGB LED to the Raspberry Pi Pico:
+**Choisir :** Connecte tes LEDs monochromes ou LEDs RVB au Raspberry Pi Pico :
 
 \[[[multiple-single-led-wiring]]\] \[[[rgb-wiring\]]]
 
-**Tip:** If you have not already prepared your LEDs, and need to remind yourself of how to connect LEDs to resistors and jumper wires, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide.
+**Astuce :** Si tu n'as pas encore préparé tes LEDs et que tu dois te rappeler comment connecter les LEDs aux résistances et aux fils de liaison, consulte notre guide [Introduction au Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Import LED or RGBLED from the picozero library then set the pins for your connected LED(s):
+**Choisir :** Importe LED ou RGBLED à partir de la librairie picozero puis définis les broches pour tes LED(s) connectées :
 
 \[[[multiple-single-led-pins]]\] \[[[rgb-led-pins\]]]
 
@@ -35,14 +35,14 @@ A prototype that tests the connections and coded design choices will highlight a
 
 --- task ---
 
-**Create:** Make functions for each mood that you want to use in your project.
+**Créer :** Crée des fonctions pour chaque ambiance que tu souhaites utiliser dans ton projet.
 
-**Choose:** Add code within the new functions to set the LED to your chosen design for that mood.
+**Choisir :** Ajoute du code dans les nouvelles fonctions pour configurer la LED sur le motif de ton choix pour cette humeur.
 
 --- collapse ---
 
 ---
-title: Turn on and off multiple single-colour LEDs
+title: Allumer et éteindre plusieurs LED monochromes
 ---
 
 --- code ---
@@ -58,17 +58,17 @@ def worried(): # Your second mood purple.off() # Turn off blue.on() # Turn on
 
 --- /collapse ---
 
-**Tip:** `blink`, `pulse` and `cycle` set a light pattern running that can be interrupted. You will be able to press a button again straight away so you can change between lighting effects using a single button.
+**Astuce :** `clignotement`, `impulsions` et `cycle` définissent un motif lumineux qui peut être interrompu. Tu pourras à nouveau appuyer immédiatement sur un bouton pour pouvoir changer d'effet d'éclairage à l'aide d'un seul bouton.
 
 --- collapse ---
 
 ---
-title: Blink or pulse multiple single-colour LED
+title: Clignotement ou impulsion de plusieurs LED monochromes
 ---
 
-Use blink or pulse to turn an LED on and off.
+Utilise le clignotement ou l'impulsion pour allumer et éteindre une LED.
 
-Blink an LED:
+Faire clignoter une LED :
 
 --- code ---
 ---
@@ -83,14 +83,14 @@ def do_not_disturb(): # First mood green.off() # Turn off the green LED red.puls
 
 --- /code ---
 
-**Tip:** You can mix single colour, blink, and pulse effects in the same project to create the moods you want.
+**Astuce :** Tu peux mélanger des effets de couleur unique, de clignotement et d'impulsion dans le même projet pour créer les humeurs que tu souhaites.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Turn on an RGB LED with a specific colour
+title: Allumer une LED RVB d'une couleur spécifique
 ---
 
 --- code ---
@@ -109,10 +109,10 @@ def sad(): # Your second mood rgb.color = (255, 0, 0) # Your second colour
 --- collapse ---
 
 ---
-title: Blink, pulse, or cycle an RGB LED
+title : Clignotement, impulsion ou cycle d'une LED RVB
 ---
 
-Use `blink`, `pulse`, or `cycle` to change between colours on an RGB LED.
+Utilise `clignotement`, `impulsion`ou `cycle` pour passer d'une couleur à l'autre sur une LED RVB.
 
 --- code ---
 ---
@@ -129,20 +129,20 @@ def relax(): rgb.cycle(fade_times=4) --- /code ---
 
 [[[generic-theory-simple-colours]]]
 
-**Tip:** Add comments to your code next to the colour values so that you remember what colours you have created for each mood.
+**Astuce :** Ajoute des commentaires à ton code à côté des valeurs de couleur afin de te souvenir des couleurs que tu as créées pour chaque ambiance.
 
 --- /task ---
 
 --- task ---
 
-**Test:** At the end of your code, underneath your mood function definitions, add code to call your first function.
+**Test :** À la fin de ton code, sous les définitions de tes fonctions d'humeur, ajoute du code pour appeler ta première fonction.
 
-Update your new code to call your mood functions one at a time, testing each one by running your code.
+Mets ton nouveau code à jour pour appeler tes fonctions d'humeur une par une, en testant chacune d'entre elles en exécutant ton code.
 
 --- collapse ---
 
 ---
-title: Call a mood function
+title: Appeler une fonction
 ---
 
 --- code ---
@@ -160,39 +160,39 @@ happy() # Change this line to try each of your functions
 
 --- /collapse ---
 
-**Tip:** Make sure you new code is not indented.
+**Astuce :** Assure-toi que ton nouveau code n'est pas indenté.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]]
 
 --- collapse ---
 
 ---
-title: My LED doesn't light when I call my mood function
+title: Ma LED ne s'allume pas lorsque j'appelle ma fonction d'humeur
 ---
 
-Check that the pins in your code match the pins your LED(s) are connected to.
+Vérifie que les broches de ton code correspondent aux broches auxquelles tes LED(s) sont connectées.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My RGB LED shows the wrong colour
+title : Ma LED RVB affiche la mauvaise couleur
 ---
 
-Check your code to make sure that your colour values are in the right order. Use the ['RGB colour guide'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to check your code matches the colour you expect.
+Vérifie ton code pour t'assurer que tes valeurs de couleur sont dans le bon ordre. Utilise le ['Guide des couleurs RVB'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} pour vérifier que ton code correspond à la couleur que tu attends.
 
 --- /collapse ---
 
-If you find a bug that is not listed here. Can you work out how to fix it?
+Si tu trouves un bogue qui n'est pas répertorié ici. Peux-tu trouver comment le réparer?
 
-We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
+Nous aimons avoir des nouvelles de tes bogues et de la façon dont tu les as corrigés. Utilise le bouton **Envoyer des commentaires** en bas de cette page et dis-nous si tu as trouvé un bogue différent dans ton projet.
 
 --- /task ---
 
