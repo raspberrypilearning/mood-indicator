@@ -1,52 +1,52 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend : Question 1 sur 3
 ---
 
-You're making a project where you want to use at least six different colours, but only one colour at a time.
+Tu réalises un projet dans lequel tu souhaites utiliser au moins six couleurs différentes, mais une seule couleur à la fois.
 
-Why would you choose to use an RGB LED in this project instead of multiple single-colour LEDs?
+Pourquoi choisirais-tu d'utiliser une LED RVB dans ce projet au lieu de plusieurs LED monochromes ?
 
 --- choices ---
 
-- ( ) It uses less ground pins, which are limited on the Pico.
+- ( ) Cela utilise moins de broches de masse, qui sont limitées sur le Pico.
 
   --- feedback ---
 
-  This is an advantage of using an RGB LED when you are working with jumper wires and only have a limited number of GND pins, but it's not the only reason.
+  C'est un avantage d'utiliser une LED RVB lorsque tu travailles avec des fils de connexion et que tu n'as qu'un nombre limité de broches GND, mais ce n'est pas la seule raison.
 
   --- /feedback ---
 
-- ( ) You only need to show one colour at a time.
+- ( ) Tu ne dois afficher qu'une seule couleur à la fois.
 
   --- feedback ---
 
-  RGB LEDs are definitely useful in situations where you only need to show one colour at a time and only need that colour in one place (single-colour LEDs are better for showing multiple colours at the same time or having lights in multiple positions). This isn't the only reason.
+  Les LEDs RVB sont certainement utiles dans les situations où tu n'as besoin d'afficher qu'une seule couleur à la fois et que tu n'as besoin que de cette couleur à un seul endroit (les LEDs monochromes sont meilleures pour afficher plusieurs couleurs en même temps ou pour avoir des lumières dans plusieurs positions). Ce n'est pas la seule raison.
 
   --- /feedback ---
 
-- ( ) It allows you to display many different colours.
+- ( ) Cela te permet d'afficher de nombreuses couleurs différentes.
 
   --- feedback ---
 
-  RGB LEDs can display a huge number of different colours by adjusting the amount of red, blue, and green so they are really useful when you need to be able to show lots of different colours, or colours that aren't easily available in single-colour LEDs. This isn't the only reason.
+  Les LEDs RVB peuvent afficher un grand nombre de couleurs différentes en ajustant la quantité de rouge, de bleu et de vert, elles sont donc vraiment utiles lorsque tu dois pouvoir afficher de nombreuses couleurs différentes ou des couleurs qui ne sont pas facilement disponibles en une seul LED de couleur. Ce n'est pas la seule raison.
 
   --- /feedback ---
 
-- (x) All of the above.
+- (x) Tout ce qui précède.
 
   --- feedback ---
 
-Yes! All of these are good reasons to use an RGB LED instead of multiple single-colour LEDs. Because you are working with limited ground pins and only need to show one colour at a time, using a single RGB LED allows you to display many different colours on a single ground pin.
+Oui! Toutes ces raisons sont bonnes pour utiliser une LED RVB au lieu de plusieurs LED monochromes. Parce que tu travailles avec des broches de terre limitées et que tu n'as besoin d'afficher qu'une seule couleur à la fois, l'utilisation d'une seule LED RVB te permet d'afficher de nombreuses couleurs différentes sur une seule broche de terre.
 
   --- /feedback ---
 
