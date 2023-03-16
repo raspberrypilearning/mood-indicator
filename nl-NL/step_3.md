@@ -1,33 +1,33 @@
-## Code your mood lights
+## Codeer je sfeerlampjes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's good practice to build your project up gradually. In this step, you will connect and code your LEDs to show different moods and test that this is working.
+Het is een goede gewoonte om je project geleidelijk te bouwen. In deze stap maak je verbinding en codeer je LED's om verschillende stemmingen weer te geven en te testen of dit werkt.
 </div>
 <div>
-![A potentiometer is turned and an LED behind some paper changes colour. The paper has a face drawn on it.](images/mood-dial.gif){:width="300px"}
+![Een potentiometer wordt gedraaid en een LED achter een papiertje verandert van kleur. Op het papier is een gezicht getekend.](images/mood-dial.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Prototyping</span> involves making a draft of what you think your final project might achieve. The focus of prototyping is to make a simplified version of the final product quickly, to allow you to test if it is a workable solution to the problem.
+<span style="color: #0faeb0">Prototypen</span> houdt in dat je een concept maakt van wat je denkt dat je uiteindelijke project zou kunnen bereiken. Het doel van prototypen is om snel een vereenvoudigde versie van het eindproduct te maken, zodat je kunt testen of het een werkbare oplossing voor het probleem is.
 </p>
 
-A prototype that tests the connections and coded design choices will highlight any wiring or coding changes needed before the lights are embedded into a device.
+Een prototype dat de aansluitingen en gecodeerde ontwerpkeuzes test zal eventuele bedrading- of codewijzigingen benadrukken die nodig zijn voordat de lichten in een apparaat worden ingebed.
 
 --- task ---
 
-**Choose:** Connect your single-colour LEDs or RGB LED to the Raspberry Pi Pico:
+**Kies:** Sluit je eenkleurige LED's of RGB LED aan op de Raspberry Pi Pico:
 
 \[[[multiple-single-led-wiring]]\] \[[[rgb-wiring\]]]
 
-**Tip:** If you have not already prepared your LEDs, and need to remind yourself of how to connect LEDs to resistors and jumper wires, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide.
+**Tip:** als je de LED's nog niet hebt voorbereid en jezelf eraan moet herinneren hoe je LED's op weerstanden en verbindingsdraden kunt aansluiten, bezoek dan onze [Inleiding tot Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} gids.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** Import LED or RGBLED from the picozero library then set the pins for your connected LED(s):
+**Kies:** Importeer LED of RGBLED uit de picozero-bibliotheek en stel vervolgens de pinnen in voor de aangesloten LED('s):
 
 \[[[multiple-single-led-pins]]\] \[[[rgb-led-pins\]]]
 
@@ -35,14 +35,14 @@ A prototype that tests the connections and coded design choices will highlight a
 
 --- task ---
 
-**Create:** Make functions for each mood that you want to use in your project.
+**Maken:** Maak functies voor elke stemming die je in je project wilt gebruiken.
 
-**Choose:** Add code within the new functions to set the LED to your chosen design for that mood.
+**Kies:** Voeg code toe binnen de nieuwe functies om de LED in te stellen op het door jou gekozen ontwerp voor die stemming.
 
 --- collapse ---
 
 ---
-title: Turn on and off multiple single-colour LEDs
+Title: Meerdere LED's met één kleur in- en uitschakelen
 ---
 
 --- code ---
@@ -58,17 +58,17 @@ def worried(): # Your second mood purple.off() # Turn off blue.on() # Turn on
 
 --- /collapse ---
 
-**Tip:** `blink`, `pulse` and `cycle` set a light pattern running that can be interrupted. You will be able to press a button again straight away so you can change between lighting effects using a single button.
+**Tip:** `knipperen`, `pulse` en `cyclus` stellen een lichtpatroon in dat kan worden onderbroken. Je kunt meteen weer op een knop drukken, zodat je met één druk op de knop kunt schakelen tussen lichteffecten.
 
 --- collapse ---
 
 ---
-title: Blink or pulse multiple single-colour LED
+Title: Knippert of pulseert meerdere LED's met één kleur
 ---
 
-Use blink or pulse to turn an LED on and off.
+Gebruik blink of pulse om een LED in en uit te schakelen.
 
-Blink an LED:
+Een LED laten knipperen:
 
 --- code ---
 ---
@@ -83,14 +83,14 @@ def do_not_disturb(): # First mood green.off() # Turn off the green LED red.puls
 
 --- /code ---
 
-**Tip:** You can mix single colour, blink, and pulse effects in the same project to create the moods you want.
+**Tip:** je kunt in hetzelfde project enkele kleuren, knipperende effecten en pulseffecten mixen om de gewenste stemming te maken.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: Turn on an RGB LED with a specific colour
+Title: Schakel een RGB-LED met een specifieke kleur in
 ---
 
 --- code ---
@@ -109,10 +109,10 @@ def sad(): # Your second mood rgb.color = (255, 0, 0) # Your second colour
 --- collapse ---
 
 ---
-title: Blink, pulse, or cycle an RGB LED
+title: Een RGB-LED knipperen, pulseren of cyclus laten doorlopen
 ---
 
-Use `blink`, `pulse`, or `cycle` to change between colours on an RGB LED.
+Gebruik `blink`, `pulse`, of `cyclus` om te wisselen tussen kleuren op een RGB LED.
 
 --- code ---
 ---
@@ -129,20 +129,20 @@ def relax(): rgb.cycle(fade_times=4) --- /code ---
 
 [[[generic-theory-simple-colours]]]
 
-**Tip:** Add comments to your code next to the colour values so that you remember what colours you have created for each mood.
+**Tip:** Voeg opmerkingen toe aan je code naast de kleurwaarden zodat je weet welke kleuren je voor elke stemming hebt gemaakt.
 
 --- /task ---
 
 --- task ---
 
-**Test:** At the end of your code, underneath your mood function definitions, add code to call your first function.
+**Test:** Voeg aan het einde van je code, onder de definities van je stemmingsfunctie, code toe om je eerste functie aan te roepen.
 
-Update your new code to call your mood functions one at a time, testing each one by running your code.
+Werk je nieuwe code bij om je stemmingsfuncties een voor een aan te roepen, en test elke code door je code uit te voeren.
 
 --- collapse ---
 
 ---
-title: Call a mood function
+Title: Roep een stemmingsfunctie op.
 ---
 
 --- code ---
@@ -160,39 +160,39 @@ happy() # Change this line to try each of your functions
 
 --- /collapse ---
 
-**Tip:** Make sure you new code is not indented.
+**Tip:** Zorg ervoor dat je nieuwe code niet inspringt.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Debug:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veelvoorkomende fouten.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]]
 
 --- collapse ---
 
 ---
-title: My LED doesn't light when I call my mood function
+title: Mijn LED licht niet op als ik mijn stemmingsfunctie aanroep
 ---
 
-Check that the pins in your code match the pins your LED(s) are connected to.
+Controleer of de pinnen in je code overeenkomen met de pinnen waarop je LED('s) zijn aangesloten.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: My RGB LED shows the wrong colour
+Title: Mijn RGB-LED geeft de verkeerde kleur aan
 ---
 
-Check your code to make sure that your colour values are in the right order. Use the ['RGB colour guide'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to check your code matches the colour you expect.
+Controleer je code om er zeker van te zijn dat je kleurwaarden in de juiste volgorde staan. Gebruik de ['RGB kleur gids'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} om te controleren of de code overeenkomt met de kleur die je verwacht.
 
 --- /collapse ---
 
-If you find a bug that is not listed here. Can you work out how to fix it?
+Als je een fout vindt die hier niet wordt vermeld. Kun je erachter komen hoe je het kunt oplossen?
 
-We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
+We horen graag over je fouten en hoe je ze hebt opgelost. Gebruik de **Feedback verzenden** knop onderaan deze pagina en vertel ons of je een andere fout in je project hebt gevonden.
 
 --- /task ---
 
