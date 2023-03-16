@@ -1,4 +1,4 @@
-## Wat nu?
+## Wat kun je verder nog doen?
 
 Als je het [Inleiding tot de Raspberry Pi Pico](https://projects.raspberrypi.org/nl-NL/pathways/pico-intro) pad volgt, kun je naar het [Klankbord](https://projects.raspberrypi.org/nl-NL/projects/sound-machine) project gaan. In dit project maak je een klankbord dat geluidseffecten of muziek zal afspelen met knoppen, schakelaars of een potentiometer.
 

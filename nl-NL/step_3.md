@@ -163,7 +163,7 @@ Werk je nieuwe code bij om je stemmingsfuncties een voor een aan te roepen, en t
 --- collapse ---
 
 ---
-title: Roep een stemmingsfunctie op.
+title: Roep een stemmingsfunctie op
 ---
 
 --- code ---
