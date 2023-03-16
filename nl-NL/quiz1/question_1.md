@@ -42,7 +42,7 @@ Waarom zou je ervoor kiezen om een RGB LED in dit project te gebruiken in plaats
 
   --- /feedback ---
 
-- (X) Alle bovenstaande antwoorden.
+- (x) Alle bovenstaande antwoorden.
 
   --- feedback ---
 
