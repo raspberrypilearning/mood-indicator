@@ -1,28 +1,28 @@
 ---
-title: Mood indicator
+title: Humeurmeter
 hero_image: images/banner.png
-description: Create a mood indicator with coloured lights to emote your current mood
+description: Maak een humeurmeter met gekleurde lampjes om je huidige stemming te laten zien
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: Wat ga je maken
   - 
-    title: Design your mood check-in
+    title: Ontwerp je humeurmeter
   - 
-    title: Code your mood lights
+    title: Codeer je humeurlichtjes
     completion:
       - engaged
   - 
-    title: Change your mood
+    title: Verander je humeur
   - 
-    title: Craft your device
+    title: Maak je apparaat
     completion:
       - internal
   - 
-    title: Reflection
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,8 +31,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: Share
+    title: Deel
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
