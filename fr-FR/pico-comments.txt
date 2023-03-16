@@ -1,67 +1,67 @@
-Pin numbers
+Numeros des broches
 
-Yellow
+Jaune
 
 Orange
 
-Green
+Vert
 
-Longest token
+Jeton le plus long
 
-Medium token
+Jeton moyen
 
-Shortest token
+Jeton le plus court
 
-Create a loop that checks for the different tokens
+Creer une boucle qui verifie les differents jetons
 
-Look for the longest token first
+Cherche d'abord le jeton le plus long
 
-Check for the medium token next
+Cherche ensuite le jeton moyen
 
-Red
+Rouge
 
-Check for the shortest token last
+Recherche le jeton le plus court en dernier lieu
 
-Blue
+Bleu
 
-Yellow-green
+Jaune-vert
 
-Store the current option
+Memorise l'option actuelle
 
-Call the next function and update the option
+Appelle la fonction suivante et mets a jour l'option
 
-Your first mood
+Ta premiere humeur
 
-Turn on
+Allumer
 
-Turn off
+Eteindre
 
-Your second mood
+Ta deuxieme humeur
 
-First mood
+Premiere humeur
 
-Turn off the red LED
+Eteindre la LED rouge
 
-Turn off the green LED
+Eteindre la LED verte
 
-Your first colour
+Ta premiere couleur
 
-Your second colour
+Ta deuxieme couleur
 
-Red for 1 second, green for 1 second, blue for 1 second
+Rouge pendant 1 seconde, vert pendant 1 seconde, bleu pendant 1 seconde
 
-Slow pulse
+Impulsion lente
 
-Change this line to try each of your functions
+Modifie cette ligne pour essayer chacune de tes fonctions
 
-Store the current option
+Memorise l'option actuelle
 
-Call the next function and update the option
+Appelle la fonction suivante et mets a jour l'option
 
-Your third mood
+Ta troisieme humeur
 
-Move to the next option
+Passer a l'option suivante
 
-Call the choice function when the button is pressed
+Appelle la fonction de choix lorsque le bouton est enfonce
 
-Loop to call a function based on the dial position
+Boucle pour appeler une fonction basee sur la position du cadran
