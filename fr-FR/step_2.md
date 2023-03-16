@@ -1,101 +1,101 @@
-## Design your device
+## Concevoir ton appareil
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-How will your mood check-in device show different moods? How will the user select their mood? 
+Comment ton appareil d'enregistrement d'humeur affichera-t-il les différentes humeurs ? Comment l'utilisateur sélectionnera-t-il son humeur ? 
 </div>
 <div>
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside, which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
+![Un morceau de papier calque est enroulé autour d'un gobelet en carton. Une LED RVB se trouve à l'intérieur, qui éclaire le papier calque de différentes couleurs en fonction du nombre de fois que le bouton a été enfoncé.](images/mood-lamp.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Choose:** Who is your mood check-in device for and how will it be used?
+**Choisir :** À qui s'adresse ton dispositif d'enregistrement d'humeur et comment sera-t-il utilisé ?
 
-It could be:
-+ For you to communicate your mood with important adults, friends, or in a club
-+ For you to reflect on your own mood and record it for yourself
-+ To help someone who finds communication difficult
-
---- /task ---
-
---- task ---
-
-**Choose:** What moods will your mood check-in device display?
-
-You could use:
-+ Communicate your mood: happy, sad, angry
-+ Set the mood: calm, focused, energised
-+ In a club session: I'm stuck, do not disturb, all good
-+ Starting something new: apprehensive, excited, distracted
+Ça pourrait être :
++ Pour communiquer ton humeur avec des adultes importants, des amis ou dans un club
++ Pour réfléchir à ta propre humeur et pour l'enregistrer pour toi-même
++ Pour aider quelqu'un qui a des difficultés à communiquer
 
 --- /task ---
 
 --- task ---
 
-**Choose:** How will your device communicate mood using light patterns?
+**Choisir :** Quelles humeurs ton appareil d'enregistrement d'humeur affichera-t-il ?
+
+Tu pourrais utiliser :
++ Communiquer ton humeur : heureux, triste, en colère
++ Créer une ambiance : calme, concentrée, énergisée
++ Dans une session de club : je suis coincé, ne pas déranger, tout va bien
++ Commencer quelque chose de nouveau : appréhensif, excité, distrait
+
+--- /task ---
+
+--- task ---
+
+**Choisir :** Comment ton appareil communiquera-t-il ton humeur à l'aide de motifs lumineux ?
 
 --- collapse ---
 
 ---
-title: Do particular colours have a meaning to you?
+title: Certaines couleurs ont-elles une signification pour toi?
 ---
 
-+ Red is a popular colour in Chinese culture, symbolising luck, joy, and happiness
-+ In theatre, wearing the colour green on stage can be seen as unlucky
-+ Depending on the culture, yellow, orange, or red could represent happiness
-+ Brighter colours are associated with excitement
-+ Blue and green have been associated with calmness and relaxation
++ Le rouge est une couleur populaire dans la culture chinoise, symbolisant la chance, la joie et le bonheur
++ Au théâtre, porter la couleur verte sur scène peut porter malheur
++ Selon la culture, le jaune, l'orange ou le rouge pourraient représenter le bonheur
++ Les couleurs plus vives sont associées à l'excitation
++ Le bleu et le vert sont associés au calme et à la relaxation
 
 --- /collapse ---
 
-You could use:
-+ Different colours. Will you use colours associated with the moods? For example, red for anger or love, blue for calm or sadness.
+Tu pourrais utiliser :
++ Différentes couleurs. Utiliseras-tu des couleurs associées aux humeurs ? Par exemple, le rouge pour la colère ou l'amour, le bleu pour le calme ou la tristesse.
 
-You could make notes or draw a sketch of your plan.
-
---- /task ---
-
-The Raspberry Pi Pico has eight **GND** pins, so when you are using jumper wires, you can only have eight components. There is only one **3V** pin so you can only use one potentiometer. There is also a limit to how much current the Raspberry Pi Pico can supply, we recommend a maximum of two RGB LEDs or six single-colour LEDs.
-
-Suggested combinations of input and outputs are:
-+ 3 buttons and 3 single-colour LEDs
-+ 1 potentiometer and 1 **common cathode** RGB LED
-+ 1 button and 1 **common cathode** RGB LED
-+ 4 buttons and 1 **common cathode** RGB LED
-
---- task ---
-
-**Choose:** What LEDs will you use with your device?
-
-You could use:
-+ Different coloured LEDs
-+ One or more RGB LEDs
+Tu pourrais prendre des notes ou dessiner un croquis de ton plan.
 
 --- /task ---
 
+Le Raspberry Pi Pico a huit broches **GND**, donc lorsque tu utilises des fils de liaison, tu ne peux avoir que huit composants. Il n'y a qu'une seule broche **3V**, tu ne peux donc utiliser qu'un seul potentiomètre. Il y a aussi une limite à la quantité de courant que le Raspberry Pi Pico peut fournir, nous recommandons un maximum de deux LED RVB ou six LED monochromes.
+
+Les combinaisons suggérées d'entrées et de sorties sont :
++ 3 boutons et 3 LED monochromes
++ 1 potentiomètre et 1 LED RVB à **cathode commune**
++ 1 bouton et 1 LED RVB à **cathode commune**
++ 4 boutons et 1 LED RVB à **cathode commune**
+
 --- task ---
 
-**Choose:** What input components will you use for your device?
+**Choisir :** Quelles LED utiliseras-tu avec ton appareil ?
 
-You could use:
-+ One or more buttons
-+ A potentiometer
-+ Crafted buttons/switches that make a connection
+Tu pourrais utiliser :
++ Des LED de différentes couleurs
++ Une ou plusieurs LED RVB
 
 --- /task ---
 
 --- task ---
 
-**Design:** What will your mood check-in device look like? How will you attach your inputs and outputs?
+**Choisir :** Quels composants d'entrée utiliseras-tu pour ton appareil ?
 
-You could:
-+ Take inspiration from the designs in the introduction
-+ Embed your components into a soft toy
-+ Turn your components into a wearable
+Tu pourrais utiliser :
++ Un ou plusieurs boutons
++ Un potentiomètre
++ Des boutons/commutateurs fabriqués qui établissent une connexion
 
-**Tip:** You don't need to decide everything now. It's fine to iterate on your design as you start making.
+--- /task ---
+
+--- task ---
+
+**Design :** À quoi ressemblera ton appareil d'enregistrement d'humeur ? Comment vas-tu connecter tes entrées et tes sorties ?
+
+Tu pourrais :
++ T'inspirer des dessins de l'introduction
++ Intégrer tes composants dans une peluche
++ Transformer tes composants en un accessoire portable
+
+**Astuce :** Tu n'as pas besoin de tout décider maintenant. Il est normal d'itérer sur ta conception lorsque tu commences à la fabriquer.
 
 --- /task ---
 
