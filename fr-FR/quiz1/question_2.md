@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend : Question 2 sur 3
 ---
 
-You are trying to make an LED blink. Looking at this code, what will happen when you press the button?
+Tu essaies de faire clignoter une LED. En regardant ce code, que se passera-t-il lorsque tu appuieras sur le bouton ?
 
 --- code ---
 ---
@@ -25,35 +25,35 @@ success()
 
 --- choices ---
 
-- (x) Nothing will happen
+- (x) Rien ne se passera
 
   --- feedback ---
 
-  That's right! The code creates a `button` variable but there's no code to do anything when the button is pressed. You could add `button.when_pressed = success`.
+  C'est exact ! Le code crée une variable `bouton` mais il n'y a pas de code pour faire quoi que ce soit lorsque le bouton est enfoncé. Tu pourrais ajouter `button.when_pressed = success`.
 
   --- /feedback ---
 
-- ( ) The light will go on
+- ( ) La lumière s'allume
 
   --- feedback ---
 
-Try again. Read through the code and look for where the `button` appears. What does it do?
+Réessaie. Relis le code et cherche où apparaît le `bouton`. Que fait-il ?
 
   --- /feedback ---
 
-- ( ) The light will go off
+- ( ) La lumière s'éteint
 
   --- feedback ---
 
-Try again. Read through the code and look for where the `button` appears. What does it do?
+Réessaie. Relis le code et cherche où apparaît le `bouton`. Que fait-il ?
 
   --- /feedback ---
 
-- ( ) The light will go on and off again
+- ( ) La lumière s'allume et s'éteint à nouveau
 
   --- feedback ---
 
-Try again. The code *does* make the light go on and off, but read through it carefully and look for where the `button` appears. What does it do?
+Réessaie. Le code *fait* allumer et éteindre la lumière, mais lis-le attentivement et cherche où le `bouton` apparaît. Que fait-il ?
 
   --- /feedback ---
 
