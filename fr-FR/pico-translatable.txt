@@ -1,54 +1,54 @@
-rgb
+rvb
 
-switch
+interrupteur
 
 option
 
-calm
+calme
 
-focused
+concentre
 
-energised
+energique
 
-choice
+choix
 
-happy
+heureux
 
-angry
+colere
 
-sad
+triste
 
 led
 
-happy!
+heureux!
 
-ANGRY!
+EN COLERE!
 
-sad and blue...
+triste et bleu...
 
-dial
+cadran
 
-good
+bien
 
-okay
+ok
 
-unsure
+incertain
 
-unhappy
+malheureux
 
-mood
+humeur
 
-eat
+manger
 
-drink
+boire
 
-play
+jouer
 
-speaker
+haut_parleur
 
-choose
+choisir
 
-confirm
+confirmer
 
 shh
 
@@ -56,28 +56,28 @@ confused
 
 smile
 
-sound_buzzer
+son_buzzer
 
-excited
+excite
 
-worried
+inquiet
 
-available
+disponible
 
-do_not_disturb
+ne_pas_deranger
 
-energise
+energique
 
-neutral
+neutre
 
 relax
 
-button
+bouton
 
-happy_button
+bouton_heureux
 
-sad_button
+bouton_triste
 
-angry_button
+bouton_colere
 
-success
+succes
