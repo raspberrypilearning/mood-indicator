@@ -1,57 +1,57 @@
-## Craft your device
+## Maak je apparaat
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make the physical parts of your mood indicator.
+Maak de fysieke onderdelen van je humeurmeter.
 </div>
 <div>
-![A piece of tracing paper has been wrapped around a paper cup. An RGB LED is inside, which lights the tracing paper in different colours depending on how many times the button has been pressed.](images/mood-lamp.gif){:width="300px"}
+![Er is een stuk overtrekpapier om een papieren beker gewikkeld. Er zit een RGB-LED in, die het overtrekpapier in verschillende kleuren verlicht, afhankelijk van het aantal keren dat de knop is ingedrukt.](images/mood-lamp.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Think:** Some questions to consider in the design of the casing and interface for your mood indicator are:
+**Denk na:** enkele vragen die je in het ontwerp van de behuizing en de interface voor je humeurmeter moet stellen zijn:
 
-+ What materials will you use? What do you have available?
-+ What kind of switches will you make? How will they operate? (If you used them)
-+ How will you mount your potentiometer so it is sturdy and easy to reach? (If you used one)
-+ Where will you mount your LEDs for the best effect? Do you need to add any diffusers?
++ Welke materialen ga je gebruiken? Wat heb je beschikbaar?
++ Wat voor soort schakelaars ga je maken? Hoe gaan ze werken? (Als je ze hebt gebruikt)
++ Hoe ga je de potentiometer zo monteren dat deze stevig is en gemakkelijk te bereiken? (Als je er een hebt gebruikt)
++ Waar ga je de LED's plaatsen voor het beste effect? Moet je diffusers toevoegen?
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-In <span style="color: #0faeb0">optics</span> (the study of light and seeing), a <b>diffuser</b> is any material that scatters light in some way. Some LED bulbs are quite directed in their light and so can't be seen very well from a distance, or can be painfully bright to look at from the wrong angle. Using a diffuser can help stop these things from happening and make your light shine in a much more pleasing way. You can make a very simple diffuser just by covering your LED with a thin piece of paper.
+In <span style="color: #0faeb0">optica</span> (de studie van licht en zien) is een <b>diffuser</b> elk materiaal dat licht op een of andere manier verspreidt. Sommige LED-lampen geven heel gericht licht af en zijn daardoor niet goed zichtbaar op afstand, of kunnen veel te helder zijn om vanuit de verkeerde hoek naar te kijken. Het gebruik van een diffuser kan helpen voorkomen dat deze dingen gebeuren en je licht op een veel aangenamere manier laten schijnen. Je kunt een zeer eenvoudige diffuser maken door je LED te bedekken met een dun stuk papier.
 </p>
 
-This mood indicator uses a balloon as a diffuser, and different sized conductive tokens to close separate switches and set the mood:
+Deze humeurmeter gebruikt een ballon als diffuser en geleidende tokens van verschillende grootte om afzonderlijke schakelaars te sluiten en de stemming in te stellen:
 <video width="640" height="360" controls>
 <source src="images/vibechecker.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- task ---
 
-**Find** the materials you will use to create the physical parts of your mood indicator.
+**Zoek** de materialen die je gaat gebruiken om de fysieke onderdelen van je humeurmeter te maken.
 
-You could use:
-+ Cardboard boxes
-+ Recycled plastic items
-+ Old toys
-+ Lego
+Je zou kunnen gebruiken:
++ Kartonnen dozen
++ Gerecyclede plastic voorwerpen
++ Oud speelgoed
++ LEGO
 + Duct tape
-+ Hot glue (ask an adult!)
-+ Scissors (ask an adult!)
-+ Craft knife (ask an adult!)
-+ 3D printer (if you're very lucky!)
++ Hete lijm (vraag een volwassene!)
++ Schaar (vraag het aan een volwassene!)
++ Stanley mes (vraag een volwassene!)
++ 3D-printer (als je geluk hebt!)
 
 --- /task ---
 
 --- task ---
 
-**Make** the casing and interface parts for your mood indicator.
+**Maak** de behuizing en interface-onderdelen voor je humeurmeter.
 
-Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start.
+Wees voorzichtig als je scherp of heet gereedschap gebruikt en zorg dat je toestemming hebt van een volwassene of dat een volwassene toezicht houdt.
 
 [[[mount-components]]]
 
@@ -60,12 +60,12 @@ Be careful if you are using any sharp or hot tools and get adult permission and 
 --- collapse ---
 
 ---
-title: Use tape to hold jumper wires in place
+title: Gebruik tape om de verbindingsdraden op hun plaats te houden
 ---
 
-Use sticky tape or electrical tape to hold jumper wires in place so that your device stays together.
+Gebruik plakband of isolatietape om verbindingsdraden op hun plaats te houden zodat het toestel bij elkaar blijft.
 
-You can remove the tape later if you want to reuse the components.
+Je kunt de tape later verwijderen als je de onderdelen opnieuw wilt gebruiken.
 
 --- /collapse ---
 
@@ -75,7 +75,7 @@ You can remove the tape later if you want to reuse the components.
 
 --- task ---
 
-**Embed** your mood check-in components into your casing and **attach** them to your interface.
+**Integreer** je humeurmeter-componenten in je behuizing en **voeg ze toe ** aan je interface.
 
 [[[joining-jumper-wires]]]
 
@@ -83,18 +83,18 @@ You can remove the tape later if you want to reuse the components.
 
 --- task ---
 
-**Test:** Run your mood check-in code again and thoroughly test each component. Make sure that your components still work as expected now that they are embedded in your crafted device.
+**Test:** Voer de code voor het meten van je humeur opnieuw uit en test elke component grondig. Zorg ervoor dat de onderdelen nog steeds werken zoals verwacht nu ze zijn ingebouwd in je zelfgemaakte apparaat.
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Fouten oplossen:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veelvoorkomende fouten.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]]
 
-If you find a bug that is not listed here. Can you work out how to fix it?
+Als je een fout vindt die hier niet wordt vermeld. Kun je erachter komen hoe je het kunt oplossen?
 
-We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
+We horen graag over je fouten en hoe je ze hebt opgelost. Gebruik de **Feedback verzenden** knop onderaan deze pagina en vertel ons of je een andere fout in je project hebt gevonden.
 
 --- /task ---
