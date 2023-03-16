@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-How many GND (ground) pins would you need on the Pico to connect the following components using jumper wires: 1 x RGB LED 1 x Potentiometer 2 x LEDs 1 x Switch
+Hoeveel GND (aarde) pinnen zou je op de Pico nodig hebben om de volgende componenten met behulp van verbindingsdraden aan te sluiten: 1 x RGB LED 1 x potentiometer 2 x LED 1 x schakelaar
 
 --- choices ---
 
@@ -14,7 +14,7 @@ How many GND (ground) pins would you need on the Pico to connect the following c
 
   --- feedback ---
 
-Try again. Have a look at how many components there are, and consider how many GND pins each requires to operate.
+Probeer het nog eens. Kijk hoeveel componenten er zijn en bedenk hoeveel GND-pinnen elke component nodig heeft om te werken.
 
   --- /feedback ---
 
@@ -23,7 +23,7 @@ Try again. Have a look at how many components there are, and consider how many G
 
   --- feedback ---
 
-Try again. Have a look at how many components there are, and consider how many GND pins each requires to operate.
+Probeer het nog eens. Kijk hoeveel componenten er zijn en bedenk hoeveel GND-pinnen elke component nodig heeft om te werken.
 
   --- /feedback ---
 
@@ -32,9 +32,9 @@ Try again. Have a look at how many components there are, and consider how many G
 
   --- feedback ---
 
-Yes! Each component requires a single GND pin to operate, and there are five components.
+Ja! Elke component heeft een enkele GND-pin nodig om te kunnen werken, en er zijn vijf onderdelen.
 
-This is important when you are using the Raspberry Pi Pico with jumper wires. In the future, you will learn how to connect multiple components to the same GND pin.
+Dit is belangrijk wanneer je de Raspberry Pi Pico met verbindingsdraden gebruikt. In de toekomst leer je hoe je meerdere componenten aansluit op dezelfde GND pin.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ This is important when you are using the Raspberry Pi Pico with jumper wires. In
 
   --- feedback ---
 
-Try again. Have a look at how many components there are, and consider how many GND pins each requires to operate.
+Probeer het nog eens. Kijk hoeveel componenten er zijn en bedenk hoeveel GND-pinnen elke component nodig heeft om te werken.
 
   --- /feedback ---
 
