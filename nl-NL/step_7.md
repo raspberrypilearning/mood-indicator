@@ -1,26 +1,26 @@
-## Upgrade your project
+## Verbeter je project
 
-If you have time, you can upgrade your project.
+Als je tijd hebt, kunt je jouw project verbeteren.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Look out for devices and gadgets that use lights to display a mood. Now you know the skills that are involved in designing and coding such a device, are there features that you would like to add to or ways you would like to improve your mood indicator?
+Zoek apparaten en gadgets die verlichting gebruiken om een stemming weer te geven. Nu je de vaardigheden hebt die betrokken zijn bij het ontwerpen en coderen van zo'n apparaat, zijn er functies die je wilt toevoegen aan of manieren waarop je je humeurmeter wilt verbeteren?
 </p>
 
 --- task ---
 
-**Test:** How could you use your mood indicator? Try using it in a real situation and get feedback from users and then upgrade your project.
+**Test:** Hoe kun je je humeurmeter gebruiken? Probeer het in een echte situatie te gebruiken, krijg feedback van gebruikers en upgrade vervolgens je project.
 
 --- /task ---
 
 --- task ---
 
-You can 'look inside' each of the examples in the [Introduction](.) to see the how the code works and get more inspiration.
+Je kunt elk van de voorbeelden in de [Inleiding](.) eens goed bekijken om te zien hoe de code werkt en meer inspiratie te krijgen.
 
 --- /task ---
 
 --- task ---
 
-Develop your blink, pulse, and cycle mood patterns. You could add more timing, repeat, and colour settings:
+Ontwikkel je knipperpatronen, pulsepatronen en cycluspatronen. Je zou meer timing-, herhaal- en kleurinstellingen kunnen toevoegen:
 
 \[[[pico-led-blink-pulse]]\] \[[[pico-rgb-led-blink-pulse-cycle\]]]
 
@@ -28,7 +28,7 @@ Develop your blink, pulse, and cycle mood patterns. You could add more timing, r
 
 --- task ---
 
-If you come across a situation in the future where you want to communicate or create a mood, then you could adapt your project.
+Als je in de toekomst een situatie tegenkomt waarin je wilt communiceren of een nieuwe stemming wilt toevoegen, dan kun je je project aanpassen.
 
 --- /task ---
 
@@ -36,20 +36,20 @@ If you come across a situation in the future where you want to communicate or cr
 
 <video width="640" height="360" controls>
 <source src="images/mood-upgrade.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
-Here are some other ideas you could try:
-+ Do some testing with your audience then improve usability
-+ Add more moods, colours, and lights
-+ Continue to craft your device to improve the structure or design
-+ Add sound to your device using a buzzer
+Hier zijn een paar andere ideeën die je zou kunnen proberen:
++ Doe wat testen met je publiek en verbeter vervolgens de bruikbaarheid
++ Voeg meer stemmingen, kleuren en lichten toe
++ Blijf knutselen aan je apparaat om de structuur of het ontwerp te verbeteren
++ Voeg geluid toe aan je apparaat met behulp van een zoemer
 
 --- /task ---
 
 --- task ---
 
-Take a look at our [Mood indicator device - Community](https://wke.lt/w/s/kTSkEC){:target="_blank"} gallery to see projects created by our community members.
+Bekijk onze [Humeurmeter - Community](https://wke.lt/w/s/kTSkEC){:target="_blank"} galerij om projecten te bekijken die zijn gemaakt door onze community-leden.
 
 --- /task ---
 
