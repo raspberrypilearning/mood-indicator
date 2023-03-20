@@ -52,9 +52,9 @@ confirmer
 
 shh
 
-confused
+confus
 
-smile
+sourire
 
 son_buzzer
 
