@@ -50,11 +50,11 @@ kies
 
 bevestig
 
-shh
+sst
 
-confused
+verward
 
-smile
+glimlach
 
 geluid_zoemer
 
