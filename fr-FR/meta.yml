@@ -1,0 +1,31 @@
+---
+title: Indicateur d'humeur
+hero_image: images/banner.png
+description: Créer un indicateur d'humeur avec des lumières colorées pour exprimer ton humeur actuelle
+meta_title: Projets Raspberry Pi Pico | Indicateur d'humeur
+meta_description: Un projet Raspberry Pi Pico pour créer un indicateur d'humeur avec des lumières colorées pour exprimer ton humeur actuelle.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: Ce que tu vas faire
+  - title: Concevoir ton indicateur d'humeur
+  - title: Coder tes lumières d'humeur
+    completion:
+      - engaged
+  - title: Changer ton humeur
+  - title: Fabriquer ton appareil
+    completion:
+      - internal
+  - title: Questionnaire rapide
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Améliorer ton projet
+  - title: Partager
+  - title: Et ensuite ?
