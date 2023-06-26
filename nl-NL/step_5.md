@@ -16,15 +16,15 @@ Maak de fysieke onderdelen van je humeurmeter.
 + Welke materialen ga je gebruiken? Wat heb je beschikbaar?
 + Wat voor soort schakelaars ga je maken? Hoe gaan ze werken? (Als je ze hebt gebruikt)
 + Hoe ga je de potentiometer zo monteren dat deze stevig is en gemakkelijk te bereiken? (Als je er een hebt gebruikt)
-+ Waar ga je de LED's plaatsen voor het beste effect? Moet je diffusers toevoegen?
++ Waar ga je de LED's plaatsen voor het beste effect? Moet je verspreiders toevoegen?
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-In <span style="color: #0faeb0">optica</span> (de studie van licht en zien) is een <b>diffuser</b> elk materiaal dat licht op een of andere manier verspreidt. Sommige LED-lampen geven heel gericht licht af en zijn daardoor niet goed zichtbaar op afstand, of kunnen veel te helder zijn om vanuit de verkeerde hoek naar te kijken. Het gebruik van een diffuser kan helpen voorkomen dat deze dingen gebeuren en je licht op een veel aangenamere manier laten schijnen. Je kunt een zeer eenvoudige diffuser maken door je LED te bedekken met een dun stuk papier.
+In <span style="color: #0faeb0">optica</span> (de studie van licht en zien) is een <b>verspreider</b> elk materiaal dat licht op een of andere manier verspreidt. Sommige LED-lampen geven heel gericht licht af en zijn daardoor niet goed zichtbaar op afstand, of kunnen veel te helder zijn om vanuit de verkeerde hoek naar te kijken. Het gebruik van een verspreider kan helpen voorkomen dat deze dingen gebeuren en je licht op een veel aangenamere manier laten schijnen. Je kunt een zeer eenvoudige verspreider maken door je LED te bedekken met een dun stuk papier.
 </p>
 
-Deze humeurmeter gebruikt een ballon als diffuser en geleidende tokens van verschillende grootte om afzonderlijke schakelaars te sluiten en de stemming in te stellen:
+Deze humeurmeter gebruikt een ballon als verspreider en geleidende tokens van verschillende grootte om afzonderlijke schakelaars te sluiten en de stemming in te stellen:
 <video width="640" height="360" controls>
 <source src="images/vibechecker.mp4" type="video/mp4">
 Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
