@@ -1,0 +1,67 @@
+Numeros des broches
+
+Jaune
+
+Orange
+
+Vert
+
+Jeton le plus long
+
+Jeton moyen
+
+Jeton le plus court
+
+Creer une boucle qui verifie les differents jetons
+
+Cherche d'abord le jeton le plus long
+
+Cherche ensuite le jeton moyen
+
+Rouge
+
+Recherche le jeton le plus court en dernier lieu
+
+Bleu
+
+Jaune-vert
+
+Memorise l'option actuelle
+
+Appelle la fonction suivante et mets a jour l'option
+
+Ta premiere humeur
+
+Allumer
+
+Eteindre
+
+Ta deuxieme humeur
+
+Premiere humeur
+
+Eteindre la LED rouge
+
+Eteindre la LED verte
+
+Ta premiere couleur
+
+Ta deuxieme couleur
+
+Rouge pendant 1 seconde, vert pendant 1 seconde, bleu pendant 1 seconde
+
+Impulsion lente
+
+Modifie cette ligne pour essayer chacune de tes fonctions
+
+Memorise l'option actuelle
+
+Appelle la fonction suivante et mets a jour l'option
+
+Ta troisieme humeur
+
+Passer a l'option suivante
+
+Appelle la fonction de choix lorsque le bouton est enfonce
+
+Boucle pour appeler une fonction basee sur la position du cadran
