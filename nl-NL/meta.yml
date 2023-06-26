@@ -2,6 +2,8 @@
 title: Humeurmeter
 hero_image: images/banner.png
 description: Maak een humeurmeter met gekleurde lampjes om je huidige stemming te laten zien
+meta_title: Raspberry Pi Pico projects | Mood indicator
+meta_description: A Raspberry Pi Pico project to create a mood indicator with coloured lights to emote your current mood.
 version: 4
 listed: true
 copyedit: true
