@@ -1,8 +1,8 @@
-## Codeer je sfeerlampjes
+## Codeer je humeurlichtjes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Het is een goede gewoonte om je project geleidelijk te bouwen. In deze stap maak je verbinding en codeer je LED's om verschillende stemmingen weer te geven en te testen of dit werkt.
+Het is een goede gewoonte om je project stapje-voor-stapje te bouwen. In deze stap verbind en codeer je LED's om verschillende stemmingen weer te geven en te testen of dit werkt.
 </div>
 <div>
 ![Een potentiometer wordt gedraaid en een LED achter een papiertje verandert van kleur. Op het papier is een gezicht getekend.](images/mood-dial.gif){:width="300px"}
@@ -42,7 +42,7 @@ Een prototype dat de aansluitingen en gecodeerde ontwerpkeuzes test zal eventuel
 --- collapse ---
 
 ---
-Title: Meerdere LED's met één kleur in- en uitschakelen
+title: Meerdere LED's met één kleur in- en uitschakelen
 ---
 
 --- code ---
@@ -58,12 +58,12 @@ def worried(): # Your second mood purple.off() # Turn off blue.on() # Turn on
 
 --- /collapse ---
 
-**Tip:** `knipperen`, `pulse` en `cyclus` stellen een lichtpatroon in dat kan worden onderbroken. Je kunt meteen weer op een knop drukken, zodat je met één druk op de knop kunt schakelen tussen lichteffecten.
+**Tip:** `blink`, `pulse` en `cycle` stellen een lichtpatroon in dat kan worden onderbroken. Je kunt meteen weer op een knop drukken, zodat je met één druk op de knop kunt schakelen tussen lichteffecten.
 
 --- collapse ---
 
 ---
-Title: Knippert of pulseert meerdere LED's met één kleur
+title: Knipper of pulseer meerdere LED's met één kleur
 ---
 
 Gebruik blink of pulse om een LED in en uit te schakelen.
@@ -90,7 +90,7 @@ def do_not_disturb(): # First mood green.off() # Turn off the green LED red.puls
 --- collapse ---
 
 ---
-Title: Schakel een RGB-LED met een specifieke kleur in
+title: Schakel een RGB-LED met een specifieke kleur in
 ---
 
 --- code ---
@@ -112,7 +112,7 @@ def sad(): # Your second mood rgb.color = (255, 0, 0) # Your second colour
 title: Een RGB-LED knipperen, pulseren of cyclus laten doorlopen
 ---
 
-Gebruik `blink`, `pulse`, of `cyclus` om te wisselen tussen kleuren op een RGB LED.
+Gebruik `blink`, `pulse`, of `cycle` om te wisselen tussen kleuren op een RGB LED.
 
 --- code ---
 ---
@@ -142,7 +142,7 @@ Werk je nieuwe code bij om je stemmingsfuncties een voor een aan te roepen, en t
 --- collapse ---
 
 ---
-Title: Roep een stemmingsfunctie op.
+title: Roep een stemmingsfunctie aan
 ---
 
 --- code ---
@@ -183,7 +183,7 @@ Controleer of de pinnen in je code overeenkomen met de pinnen waarop je LED('s) 
 --- collapse ---
 
 ---
-Title: Mijn RGB-LED geeft de verkeerde kleur aan
+title: Mijn RGB-LED geeft de verkeerde kleur aan
 ---
 
 Controleer je code om er zeker van te zijn dat je kleurwaarden in de juiste volgorde staan. Gebruik de ['RGB kleur gids'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} om te controleren of de code overeenkomt met de kleur die je verwacht.
