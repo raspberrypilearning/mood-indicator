@@ -85,12 +85,12 @@ line_numbers: false
 ---
 
 def disponible(): # Premiere humeur
-    red.off() # Eteindre la LED rouge
+    rouge.off() # Eteindre la LED rouge
     vert.blink() 
 
 
 def ne_pas_deranger(): # Premiere humeur
-    green.off() # Eteindre la LED verte
+    vert.off() # Eteindre la LED verte
     rouge.pulse() 
 
 --- /code ---
