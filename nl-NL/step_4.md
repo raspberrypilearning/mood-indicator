@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Nu heb je een manier nodig voor de gebruiker om van humeur te veranderen met behulp van een knop of potentiometeringang. 
+Nu heb je een manier nodig voor de gebruiker om van humeur te veranderen met behulp van een knop- of potentiometerinvoer. 
 </div>
 <div>
 ![Een doos met drie emoji's aan de voorkant. Het ene is een stopteken, het andere is een 'handen omhoog'-teken en het andere is een 'OK'-teken. Knoppen ernaast worden ingedrukt, die de bijbehorende LED laten branden.](images/dnd-indicator.gif){:width="300px"}
@@ -50,7 +50,7 @@ Je hebt ook twee verbindingsdraden met stekkerbussen nodig voor elke knop of dri
 --- collapse ---
 
 ---
-Title: Ga naar de volgende stemming wanneer er op een knop wordt gedrukt
+title: Ga naar de volgende stemming wanneer er op een knop wordt gedrukt
 ---
 
 Gebruik een `optie` variabele om de huidige stemming bij te houden, zodat je kunt beslissen welke functie je daarna wil aanroepen.
