@@ -1,6 +1,6 @@
 ## Verbeter je project
 
-Als je tijd hebt, kunt je jouw project verbeteren.
+Als je tijd hebt, kun je jouw project verbeteren.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Zoek apparaten en gadgets die verlichting gebruiken om een stemming weer te geven. Nu je de vaardigheden hebt die betrokken zijn bij het ontwerpen en coderen van zo'n apparaat, zijn er functies die je wilt toevoegen aan of manieren waarop je je humeurmeter wilt verbeteren?
