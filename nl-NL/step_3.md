@@ -1,8 +1,8 @@
-## Codeer je sfeerlampjes
+## Codeer je humeurlichtjes
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Het is een goede gewoonte om je project geleidelijk te bouwen. In deze stap maak je verbinding en codeer je LED's om verschillende stemmingen weer te geven en te testen of dit werkt.
+Het is een goede gewoonte om je project stapje-voor-stapje te bouwen. In deze stap verbind en codeer je LED's om verschillende stemmingen weer te geven en te testen of dit werkt.
 </div>
 <div>
 ![Een potentiometer wordt gedraaid en een LED achter een papiertje verandert van kleur. Op het papier is een gezicht getekend.](images/mood-dial.gif){:width="300px"}
@@ -70,7 +70,7 @@ def bezorgd(): # Je tweede stemming
 --- collapse ---
 
 ---
-title: Knippert of pulseert meerdere LED's met één kleur
+title: Knipper of pulseer meerdere LED's met één kleur
 ---
 
 Gebruik blink of pulse om een LED in en uit te schakelen.
@@ -163,7 +163,7 @@ Werk je nieuwe code bij om je stemmingsfuncties een voor een aan te roepen, en t
 --- collapse ---
 
 ---
-title: Roep een stemmingsfunctie op
+title: Roep een stemmingsfunctie aan
 ---
 
 --- code ---
